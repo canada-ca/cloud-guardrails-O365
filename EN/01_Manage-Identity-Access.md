@@ -23,7 +23,6 @@ Configure conditional access using ADFS
 * [ ] Implement a mechanism for uniquely identifying and authenticating organizational users, non-organizational users (if applicable), and processes (for example, username and password)
 * [ ] Ensure multifactor authentication is enabled for all users in administrative roles
 * [ ] Ensure that between two and four global admins are designated
-* [ ] Ensure self-service password reset is enabled
 * [ ] Secure administrative roles
 * [ ] Enable Privileged Access Management
 * [ ] Ensure modern authentication for Exchange Online is enabled
