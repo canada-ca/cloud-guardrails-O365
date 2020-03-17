@@ -7,8 +7,8 @@ Multi-factor authentication (MFA) is a method of authentication that requires th
 ## Key Considerations
 
 * [ ] Review the [Recommendations for Two-Factor User Authentication Within the Government of Canada Enterprise Domain](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp)
-* [ ] Implement a multi-factor authentication mechanism for privileged accounts (for example, username, password and one-time password) and for external facing interfaces
-* [ ] Implement multi-factor authentication mechanism for remote network (cloud) access.
+* [ ] Ensure multifactor authentication is enabled for all users in administrative roles
+* [ ] Implement multi-factor authentication mechanism for external facing interfaces and remote network (cloud) access.
 
 ## Validation
 
