@@ -11,12 +11,11 @@ Protect data in the cloud.
 * [ ] Ensure data in transit is encrypted by default (e.g. TLS v1.2, etc.).
 * [ ] Leverage encryption mechanisms to protect the confidentiality and integrity of data hosted in the cloud service.
 * [ ] Use CSE-approved cryptographic algorithms and protocols, in accordance with [40.111](https://cyber.gc.ca/en/guidance/cryptographic-algorithms-unclassified-protected-and-protected-b-information-itsp40111) and [40.062](https://www.cse-cst.gc.ca/en/system/files/pdf_documents/itsp.40.062-eng.pdf).
-* [ ] Ensure DLP policies are enabled
+* [ ] Ensure DLP policies are enabled to protect GC Office 365 email and documents
+* [ ] Leverage Office 365 Advanced Data Governance for data governance, retention, and expiration.
 * [ ] Ensure Exchange Online Spam Policies are set correctly
-
-## Additional Considerations
-
-* [ ] Classify documents and emails with sensitivity labels and apply document markings (headers, footers, watermarks), protection through encryption, and enforce rights management
+* [ ] Implement Azure Information Protection for classification and labelling and information protection of internal documents and emails and define a GC standard set of labels and guidelines for additional departmental labels and classifications
+* [ ] Use Azure Information Protection labels to apply classification to documents and emails
 
 ## Validation
 
