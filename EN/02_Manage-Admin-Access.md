@@ -2,14 +2,16 @@
 
 ## Objective
 
-Establish access control policies and procedures for management of administrative privileges.
+Establish access control policies and procedures for management of administrative privileges. 
 
 ## Key Considerations
 
 * [ ] Implement a mechanism for uniquely identifying and authenticating organizational users, non-organizational users (if applicable), and processes (for example, username and password).
+* [ ] Administrative Access should be enabled for administrators in a time-boxed and just-in-time manner using Azure AD Privileged Identity Manager. 
+* [ ] External access (if this is permitted) will require the use of MFA through Azure AD Conditional Access.
+* [ ] Minimize number of guest users; add only if needed.
 * [ ] Change default passwords.
 * [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
-* [ ] Minimize number of guest users; add only if needed.
 * [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions for endpoint devices accordingly.
 **Note:** Some service providers may offer configuration options to restrict endpoint device access. Alternatively, organizational policy and procedural instruments can be implemented to restrict access.
 
