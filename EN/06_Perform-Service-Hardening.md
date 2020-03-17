@@ -17,6 +17,12 @@ Minimize available services and control connectivity by disabling services as we
 * [ ] Configure anti-malware protection in your tenant
 * [ ] Review the permissions granted to third party services via Integrated Apps
 
+### Teams
+
+* [ ] Ensure that users understand the categorization of the Teams site (e.g. Team sites may only be approved for unclassified information)
+* [ ] Ensure that users understand their responsibilities for managing information including saving decisions made in the departmental IM respository
+* [ ] Owners of team sites are responsible for the management of their Office 365 groups which are the security access control groups that allow access to the team site
+
 ### Exchange Online
 
 * [ ] Ensure modern authentication for Exchange Online is enabled
