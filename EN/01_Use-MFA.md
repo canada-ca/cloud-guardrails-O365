@@ -1,1 +1,4 @@
+# Use Multi-Factor Authentication
 
+MFA adds an additional layer of protection to a strong password strategy by requiring users to acknowledge a phone call, text message, or an app notification on their smart phone after correctly entering their password. With MFA in place, Office 365 user accounts are still protected against unauthorized access even if a user's password is compromised. Accounts are protected because access is not granted to an account until after the additional challenge has been satisfied. A compromised or stolen password is not enough.
+Administrative Access must be enabled for administrators in a time-boxed and just-in-time manner using Azure AD Privileged Identity Manager. External access (if this is permitted) will require the use of MFA through Azure AD Conditional Access.
