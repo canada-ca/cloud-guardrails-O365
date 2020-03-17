@@ -16,8 +16,8 @@ A summary of the cloud guardrails to be implemented in the initial phase are ide
 
 | ID. | Guardrail |
 | --- | --- |
-| 01 | [Use multi-factor authentication](EN/01_Use-MFA.md) |
-| 02 | [Manage administrative access](EN/02_Manage-Admin-Access.md) |
+| 01 | [Manage identity and access](EN/01_Manage-Identity-Access.md) |
+| 02 | [Use multi-factor authentication](EN/02_Use-MFA.md) |
 | 03 | [Apply conditional access policies](EN/03_Apply-Conditional-Access.md) |
 | 04 | [Enable logging and monitoring](EN/04_Enable-Logging-and-Monitoring.md) |
 | 05 | [Implement data protection](EN/05_Implement-Data-Protection.md) |
