@@ -9,23 +9,13 @@ Enable logging for the cloud environment and for cloud-based workloads.
 ### Logging
 
 * [ ] Implement adequate level of logging and reporting, including a security audit log function in all information systems.
+* [ ] Ensure mailbox auditing for all users is Enabled
+* [ ] Ensure Microsoft 365 audit log search is Enabled
 * [ ] Identify the events within the solution that must be audited in accordance with [GC Event Logging](https://www.gcpedia.gc.ca/gcwiki/images/e/e3/GC_Event_Logging_Strategy.pdf).
 
 ### Monitoring
 
-* [ ] Ensure the Azure AD 'Risky sign-ins' report is reviewed at least weekly
-* [ ] Ensure user role group changes are reviewed at least weekly
-* [ ] Ensure mailbox auditing for all users is Enabled
-* [ ] Ensure mail forwarding rules are reviewed at least weekly
-* [ ] Ensure the Mailbox Access by Non-Owners Report is reviewed at least biweekly
-* [ ] Ensure the Malware Detections report is reviewed at least weekly
-* [ ] Ensure the spoofed domains report is review weekly
-* [ ] Ensure the report of users who have had their email privileges restricted due to spamming is reviewed
-* [ ] Ensure Microsoft 365 audit log search is Enabled
-* [ ] Ensure the Account Provisioning Activity report is reviewed at least weekly
-* [ ] Ensure non-global administrator role group assignments are reviewed at least weekly
-* [ ] Ensure the self-service password reset activity report is reviewed at least weekly
-
+* [ ] Ensure reports are reviewed at least weekly
 
 **Note:** You may need to configure your solution to send the audit log records to a centralized logging facility, if one is available, where existing auditing mechanisms will be applied.
 
