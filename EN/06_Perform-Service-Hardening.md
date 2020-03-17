@@ -2,7 +2,7 @@
 
 ## Objective
 
-TBD
+Minimize available services and control connectivity by disabling services as well as removing unnecessary accounts from systems. Configure the Office 365 service and the devices from which it is accessed to attempt to filter out and reduce the impact of attempted attacks. 
 
 ## Key Considerations
 
@@ -15,6 +15,7 @@ TBD
 * [ ] Disable macros unless they are in trusted files - Trusted files (signature or location)
 * [ ] Block macros from the Internet
 * [ ] Configure anti-malware protection in your tenant
+* [ ] Review the permissions granted to third party services via Integrated Apps
 
 ### Exchange Online
 
