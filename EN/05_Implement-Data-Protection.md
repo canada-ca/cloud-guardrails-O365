@@ -13,6 +13,10 @@ Protect data in the cloud.
 * [ ] Ensure DLP policies are enabled
 * [ ] Ensure Exchange Online Spam Policies are set correctly
 
+## Additional Considerations
+
+* [ ] Classify documents and emails with sensitivity labels and apply document markings (headers, footers, watermarks), protection through encryption, and enforce rights management
+
 ## Validation
 
 * [ ] Confirm policy for encryption (e.g. storage and/or VM based on risk-based assessment).
