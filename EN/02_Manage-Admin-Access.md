@@ -7,6 +7,7 @@ Establish access control policies and procedures for management of administrativ
 ## Key Considerations
 
 * [ ] Implement a mechanism for uniquely identifying and authenticating organizational users, non-organizational users (if applicable), and processes (for example, username and password).
+* [ ] Prevent use of Legacy Authentication Protocols
 * [ ] Ensure multifactor authentication is enabled for all users in administrative roles
 * [ ] Ensure that between two and four global admins are designated
 * [ ] Ensure the Azure AD 'Risky sign-ins' report is reviewed at least weekly
@@ -17,6 +18,7 @@ Establish access control policies and procedures for management of administrativ
 * [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
 * [ ] Ensure self-service password reset is enabled
 * [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions for endpoint devices accordingly.
+* [ ] Ensure third party integrated applications are not allowed
 
 ## Validation
 
