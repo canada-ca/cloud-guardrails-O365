@@ -6,20 +6,26 @@ Establish access control policies and procedures for management of administrativ
 
 ## Key Considerations
 
+* [ ] Implement a mechanism for uniquely identifying and authenticating organizational users, non-organizational users (if applicable), and processes (for example, username and password).
 * [ ] Ensure multifactor authentication is enabled for all users in administrative roles
 * [ ] Ensure that between two and four global admins are designated
 * [ ] Ensure self-service password reset is enabled
-* [ ] Control Access to Azure AD administration portal
 * [ ] Secure administrative roles
-* [ ] Configure break glass accounts in Azure AD
-* [ ] Ensure modern authentication for Exchange Online is enabled
-* [ ] Ensure that Office 365 Passwords Are Not Set to Expire
 * [ ] Enable Privileged Access Management
+* [ ] Ensure modern authentication for Exchange Online is enabled
+* [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
 * [ ] Configure Office 365 Global Administrator role members
 * [ ] Use Non-Global Administrative roles
 * [ ] Use dedicated accounts to perform Administrative Tasks
 * [ ] Ensure modern authentication for SharePoint applications is required
 * [ ] Ensure modern authentication for Skype for Business Online is enabled
+* [ ] Minimize number of guest users; add only if needed.
+
+## Additional Considerations
+
+* [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions for endpoint devices accordingly.
+* [ ] Control Access to Azure AD administration portal
+* [ ] Configure break glass accounts in Azure AD
 
 ## Validation
 
