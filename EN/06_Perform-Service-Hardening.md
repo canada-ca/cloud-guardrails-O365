@@ -30,13 +30,14 @@ Minimize available services and control connectivity by disabling services as we
 * [ ] Ensure mail transport rules do not forward email to external domains
 * [ ] Ensure mail transport rules do not whitelist specific domains
 * [ ] Ensure that an anti-phishing policy has been created
-* [ ] Ensure that DKIM is enabled for all Exchange Online Domains
-* [ ] Ensure that SPF records are published for all Exchange Domains
-* [ ] Ensure DMARC Records for all Exchange Online domains are published
 * [ ] Ensure notifications for internal users sending malware is Enabled
 * [ ] Ensure the Advanced Threat Protection Safe Links policy is enabled
 * [ ] Disable unused services per mailbox
 * [ ] Configure Transport rule for ransomware
+* [ ] Authorize all sending IP addresses in Sender Policy Framework (SPF) and ensure that DKIM is enabled for all Exchange Online Domains
+* [ ] Apply Domain Keys Identified Mail (DKIM) signatures to all outbound messages for all Exchange Online Domains
+* [ ] Establish a minimum Domain-based Message Authentication, Reporting & Conformance (DMARC) policy of “p=none” with at least one address defined as a recipient of aggregate reports, as outlined in CCCS’s Implementation Guidance for Email Domain Protection
+* [ ] Add the Canadian Centre for Cyber Security (CCCS) as an aggregate report recipient in the DMARC records. The address that must be included is dmarc@cyber.gc.ca
 
 ## Validation
 
