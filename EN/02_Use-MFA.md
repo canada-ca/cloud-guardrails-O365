@@ -2,11 +2,12 @@
 
 ## Objective
 
-MFA adds an additional layer of protection to a strong password strategy by requiring users to acknowledge a phone call, text message, or an app notification on their smart phone after correctly entering their password. With MFA in place, Office 365 user accounts are still protected against unauthorized access even if a user's password is compromised. Accounts are protected because access is not granted to an account until after the additional challenge has been satisfied. A compromised or stolen password is not enough.
+Multi-factor authentication (MFA) is a method of authentication that requires the use of more than one verification method and adds a second layer of security to user sign-ins and transactions. It provides an additional layer of protection to a strong password strategy by providing a way of 'double checking' that you really are the person you are claiming to be when you're using online services. With MFA in place, Office 365 user accounts are still protected against unauthorized access even if a user's password is compromised. 
 
 ## Key Considerations
 
-* [ ] TBD
+* [ ] Implement a multi-factor authentication mechanism for privileged accounts (for example, username, password and one-time password) and for external facing interfaces.
+* [ ] Implement multi-factor authentication mechanism for remote network (cloud) access.
 
 ## Validation
 
