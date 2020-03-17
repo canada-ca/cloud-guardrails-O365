@@ -2,12 +2,13 @@
 
 ## Objective
 
-TBD
+Validate the security configuration and settings and apply recommendations to improve security posture.
 
 ## Key Considerations
 
-* [ ] TBD
-
+* [ ] Use Microsoft Secure Score to measure the current state of the O365 configuration and security posture. A higher number indicates that more improvement actions need to be taken.
+* [ ] Compare current state posture with benchmarks and establish key performance indicators (KPIs).
+ 
 ## Validation
 
 * [ ] TBD
