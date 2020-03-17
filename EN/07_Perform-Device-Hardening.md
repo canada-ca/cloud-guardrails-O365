@@ -6,7 +6,17 @@ TBD
 
 ## Key Considerations
 
-* [ ] TBD
+* [ ] Ensure mobile device management polices are set to require advanced security configurations to protect from basic internet attacks
+* [ ] Ensure that mobile device password reuse is prohibited
+* [ ] Ensure that mobile devices are set to never expire passwords
+* [ ] Ensure that users cannot connect from devices that are jail broken or rooted
+* [ ] Ensure that mobile devices require a complex password to prevent brute force attacks
+* [ ] Ensure that settings are enable to lock multiple devices after a period of inactivity to prevent unauthorized access
+* [ ] Ensure that mobile device encryption is enabled to prevent unauthorized access to mobile data
+* [ ] Ensure that devices connecting have AV and a local firewall enabled
+* [ ] Ensure mobile devices require the use of a password
+* [ ] Ensure mobile device management policies are required for email profiles
+* [ ] Ensure expiration time for external sharing links is set
 
 ## Validation
 
