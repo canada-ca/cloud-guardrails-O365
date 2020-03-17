@@ -2,15 +2,15 @@
 
 ([Français](#gabarit-pour-dépôts-de-code-source-ouvert-du-gouvernement-du-canada))
 
-## GC Cloud Guardrails for O365
+# GC Cloud Guardrails for O365
 
 This project will host the minimum guardrails for Microsoft Office 365. The users of this project will be Government of Canada employees deploying cloud-based workloads.
 
-### Purpose
+## Purpose
 
 The purpose of the guardrails is to ensure that departments and agencies are implementing a preliminary baseline set of controls within their Microsoft O365 cloud-based environment. 
 
-### Initial Guardrails
+## Initial Guardrails
 
 A summary of the cloud guardrails to be implemented in the initial phase are identified in the table below:
 
@@ -72,7 +72,7 @@ Un résumé des mesures de sécurité du nuage à mettre en œuvre au cours de l
 | 07 | [Perform device hardening](EN/07_Perform-Device-Hardening.md) |
 | 08 | [Validate settings](EN/08_Validate-Settings.md) |
 
-### Considerations
+## Considerations
 
 Les ministères devraient continuer à mettre en œuvre les exigences de sécurité énoncées dans les documents suivants :
 
