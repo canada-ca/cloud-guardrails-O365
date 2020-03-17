@@ -2,11 +2,14 @@
 
 ## Objective
 
-TBD
+Conditional Access is the tool used by Azure Active Directory to bring signals together, to make decisions, and enforce organizational policies. Policies are enforced after the first-factor authentication has been completed.
 
 ## Key Considerations
 
-* [ ] TBD
+* [ ] Establish Conditional Access Policies (More information is available at https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview. Some examples are : 
+- Any access attempt from outside of the corporate network would either be blocked or require Multifactor Authentication (MFA); 
+- Any access to the system should be from  GC Networks and GC end points; and
+- Any Administrative-level access would require MFA
 
 ## Validation
 
