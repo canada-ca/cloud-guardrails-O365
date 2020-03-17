@@ -16,6 +16,21 @@ TBD
 * [ ] Block macros from the Internet
 * [ ] Configure anti-malware protection in your tenant
 
+### Exchange Online
+
+* [ ] Ensure modern authentication for Exchange Online is enabled
+* [ ] Ensure the Common Attachment Types Filter is enabled
+* [ ] Ensure mail transport rules do not forward email to external domains
+* [ ] Ensure mail transport rules do not whitelist specific domains
+* [ ] Ensure that an anti-phishing policy has been created
+* [ ] Ensure that DKIM is enabled for all Exchange Online Domains
+* [ ] Ensure that SPF records are published for all Exchange Domains
+* [ ] Ensure DMARC Records for all Exchange Online domains are published
+* [ ] Ensure notifications for internal users sending malware is Enabled
+* [ ] Ensure the Advanced Threat Protection Safe Links policy is enabled
+* [ ] Disable unused services per mailbox
+* [ ] Configure Transport rule for ransomware
+
 ## Validation
 
 * [ ] TBD
