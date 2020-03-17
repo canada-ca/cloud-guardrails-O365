@@ -7,6 +7,7 @@ Protect data in the cloud.
 ## Key Considerations
 
 * [ ] Seek guidance from privacy and access to information officials within institutions before storing personal information in cloud-based environments.
+* [ ] Verify location of service
 * [ ] Ensure data in transit is encrypted by default (e.g. TLS v1.2, etc.).
 * [ ] Leverage encryption mechanisms to protect the confidentiality and integrity of data hosted in the cloud service.
 * [ ] Use CSE-approved cryptographic algorithms and protocols, in accordance with [40.111](https://cyber.gc.ca/en/guidance/cryptographic-algorithms-unclassified-protected-and-protected-b-information-itsp40111) and [40.062](https://www.cse-cst.gc.ca/en/system/files/pdf_documents/itsp.40.062-eng.pdf).
