@@ -14,12 +14,11 @@ Safeguard information and assets hosted in cloud, from unauthorized access, use,
 * [ ] Ensure DLP policies are enabled to protect GC Office 365 email and documents
 * [ ] Leverage Office 365 Advanced Data Governance for data governance, retention, and expiration.
 * [ ] Ensure Exchange Online Spam Policies are set correctly
-* [ ] Implement Azure Information Protection for classification and labelling and information protection of internal documents and emails and define a GC standard set of labels and guidelines for additional departmental labels and classifications
-* [ ] Use Azure Information Protection labels to apply classification to documents and emails
+* [ ] Use Azure Information Protection for classification and labelling and information protection of internal documents and emails 
 
 ## Validation
 
-* [ ] Confirm policy for encryption (e.g. storage and/or VM based on risk-based assessment).
+* [ ] TBD
 
 ## References
 
