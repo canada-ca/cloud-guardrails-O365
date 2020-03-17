@@ -2,7 +2,7 @@
 
 ## Objective
 
-Validate the security configuration and settings and apply recommendations to improve security posture.
+Use built-in tools to validate the security configuration and settings for O365 and apply recommendations as appropriate to improve security posture.
 
 ## Key Considerations
 
