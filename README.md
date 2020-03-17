@@ -48,12 +48,42 @@ The Canada wordmark and related graphics associated with this distribution are p
 
 ______________________
 
-## Gabarit pour dépôts de code source ouvert du gouvernement du Canada
+<!-- markdownlint-disable MD024 MD025 -->
+# GC Mesures de sécurité du nuage pour O365
 
-- Quel est ce projet?
-- Comment ça marche?
-- Qui utilisera ce projet?
-- Quel est le but de ce projet?
+Ce projet hébergera les mesures de sécurité du nuage. Les utilisateurs de ce projet seront des employés du gouvernement du Canada qui déploieront des charges de travail en nuage.
+
+## Objet
+
+Le présent projet met l’accent sur un ensemble préliminaire de mesures de sécurité de base pour veiller à ce que l’environnement des services d’informatique en nuage ait un ensemble minimal de configurations pour l’environnement de l’informatique en nuage. Cette section décrit un ensemble de mesures de sécurité minimales qui font partie du cadre de mise en œuvre du GC. 
+
+## Résumé
+
+Un résumé des mesures de sécurité du nuage à mettre en œuvre au cours de la phase initiale est présenté dans le tableau ci-dessous :
+
+| ID. | Mesures de sécurité du nuage |
+| --- | --- |
+| 01 | [Protéger le compte racine ou des administrateurs généraux](FR/01_Protéger-le-compte-racine.md) |
+| 02 | [Gestion des privilèges d’administration](FR/02_Gestion-des-privilèges-d’administration.md) |
+| 03 | [Accès à la console du nuage](FR/03_Accès-à-la-console-du-nuage.md) |
+| 04 | [Comptes de surveillance organisationnels](FR/04_Comptes-de-surveillance-organisationnels.md) |
+| 05 | [Hébergement des données](FR/05_Hébergement-des-données.md) |
+| 06 | [Protection des données au repos](FR/06_Protection-des-données-au-repos.md) |
+| 07 | [Protection des données en transit](FR/07_Protection-des-données-en-transit.md) |
+| 08 | [Segmenter et séparer](FR/08_Segmenter.md) |
+| 09 | [Services de sécurité du réseau](FR/09_Services-de-sécurité-du-réseau.md) |
+| 10 | [Services de cyberdéfense](FR/10_Services-de-cyberdéfense.md) |
+| 11 | [Journalisation et surveillance](FR/11_Journalisation-et-surveillance.md) |
+| 12 | [Configuration des marchés de l’informatique en nuage](FR/12_Configuration-des-marchés.md) |
+
+## Considerations
+
+Les ministères devraient continuer à mettre en œuvre les exigences de sécurité énoncées dans les documents suivants :
+
+* [	Orientation sur l’utilisation sécurisée des services commerciaux d’informatique en nuage : Avis de mise en œuvre de la Politique sur la sécurité (AMOPS)](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/technologiques-modernes-nouveaux/orientation-utilisation-securisee-services-commerciaux-informatique-nuage-amops.html)
+* [Government of Canada Security Control Profile for Cloud-Based GC Services](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/technologiques-modernes-nouveaux/services-informatique-nuage/profil-controle-securite-services-ti-fondes-information-nuage.html)
+
+Les ministères devraient collaborer avec leurs équipes de gestion des risques de sécurité de la TI pour obtenir des conseils et une orientation sur l’intégration des activités d’évaluation et d’autorisation de la sécurité dans le cadre de la mise en œuvre de l’environnement de l’informatique en nuage du GC. [L’approche et les procédures de gestion des risques à la sécurité de l’informatique en nuage du gouvernement du Canada](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/technologiques-modernes-nouveaux/services-informatique-nuage/approche-procedures-gestion-risques-securite-informatique-nuage.html) décrivent les activités que les ministères doivent envisager dans le cadre des activités de gestion des risques ministériels. 
 
 ### Comment contribuer
 
