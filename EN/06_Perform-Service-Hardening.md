@@ -14,6 +14,7 @@ TBD
 * [ ] Configure macro execution scanning
 * [ ] Disable macros unless they are in trusted files - Trusted files (signature or location)
 * [ ] Block macros from the Internet
+* [ ] Configure anti-malware protection in your tenant
 
 ## Validation
 
