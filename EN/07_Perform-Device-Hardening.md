@@ -2,7 +2,7 @@
 
 ## Objective
 
-TBD
+The security posture of devices used to access the services should be considered. As a minimum, devices should be fully patched, have malware defences in place and be configured to collect security logs.
 
 ## Key Considerations
 
