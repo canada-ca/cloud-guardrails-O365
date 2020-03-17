@@ -57,7 +57,7 @@ Ce projet hébergera les mesures de sécurité du nuage. Les utilisateurs de ce 
 
 Le présent projet met l’accent sur un ensemble préliminaire de mesures de sécurité de base pour veiller à ce que l’environnement des services d’informatique en nuage ait un ensemble minimal de configurations pour l’environnement de l’informatique en nuage. Cette section décrit un ensemble de mesures de sécurité minimales qui font partie du cadre de mise en œuvre du GC. 
 
-## Résumé
+### Résumé
 
 Un résumé des mesures de sécurité du nuage à mettre en œuvre au cours de la phase initiale est présenté dans le tableau ci-dessous :
 
@@ -72,7 +72,7 @@ Un résumé des mesures de sécurité du nuage à mettre en œuvre au cours de l
 | 07 | [Perform device hardening](EN/07_Perform-Device-Hardening.md) |
 | 08 | [Validate settings](EN/08_Validate-Settings.md) |
 
-## Considerations
+### Considerations
 
 Les ministères devraient continuer à mettre en œuvre les exigences de sécurité énoncées dans les documents suivants :
 
