@@ -6,7 +6,14 @@ TBD
 
 ## Key Considerations
 
-* [ ] TBD
+* [ ] Configuring  External collaboration settings
+* [ ] Configure Azure Information protection
+* [ ] Ensure O365 ATP SafeLinks for Office Applications is Enabled
+* [ ] Disable macros where they're not used
+* [ ] Disable high-risk macro capabilities
+* [ ] Configure macro execution scanning
+* [ ] Disable macros unless they are in trusted files - Trusted files (signature or location)
+* [ ] Block macros from the Internet
 
 ## Validation
 
