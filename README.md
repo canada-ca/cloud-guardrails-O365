@@ -6,17 +6,17 @@
 
 This project will host the minimum guardrails for Microsoft Office 365. The users of this project will be Government of Canada employees deploying cloud-based workloads.
 
-## Purpose
+### Purpose
 
 The purpose of the guardrails is to ensure that departments and agencies are implementing a preliminary baseline set of controls within their Microsoft O365 cloud-based environment. 
 
-## Initial Guardrails
+### Initial Guardrails
 
 A summary of the cloud guardrails to be implemented in the initial phase are identified in the table below:
 
 | ID. | Guardrail |
 | --- | --- |
-| 01 | [Use multi-factor authentication] (EN/01_Use-MFA.md) |
+| 01 | [Use multi-factor authentication](EN/01_Use-MFA.md) |
 | 02 | [Manage administrative access](EN/02_Manage-Admin-Access.md) |
 | 03 | [Apply conditional access policies](EN/03_Apply-Conditional-Access.md) |
 | 04 | [Enable logging and monitoring](EN/04_Enable-Logging-and-Monitoring.md) |
@@ -27,7 +27,7 @@ A summary of the cloud guardrails to be implemented in the initial phase are ide
 | 09 | [Develop Incident Response Plan](EN/09_Develop-IR-Plan.md) |
 | 10 | [Enhance email security](EN/10_Enhance-Email-Security.md) |
 
-## Considerations
+### Considerations
 
 Departments are expected to continue implementing the security requirements as outlined in:
 
