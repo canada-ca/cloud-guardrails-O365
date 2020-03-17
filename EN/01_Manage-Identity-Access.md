@@ -2,7 +2,7 @@
 
 ## Objective
 
-Establish access control policies and procedures for management of administrative privileges. 
+Manage identities and establish access control policies and procedures for management of adminitrative privileges.
 
 ## Key Considerations
 
