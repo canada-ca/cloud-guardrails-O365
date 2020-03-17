@@ -63,18 +63,14 @@ Un résumé des mesures de sécurité du nuage à mettre en œuvre au cours de l
 
 | ID. | Mesures de sécurité du nuage |
 | --- | --- |
-| 01 | [Protéger le compte racine ou des administrateurs généraux](FR/01_Protéger-le-compte-racine.md) |
-| 02 | [Gestion des privilèges d’administration](FR/02_Gestion-des-privilèges-d’administration.md) |
-| 03 | [Accès à la console du nuage](FR/03_Accès-à-la-console-du-nuage.md) |
-| 04 | [Comptes de surveillance organisationnels](FR/04_Comptes-de-surveillance-organisationnels.md) |
-| 05 | [Hébergement des données](FR/05_Hébergement-des-données.md) |
-| 06 | [Protection des données au repos](FR/06_Protection-des-données-au-repos.md) |
-| 07 | [Protection des données en transit](FR/07_Protection-des-données-en-transit.md) |
-| 08 | [Segmenter et séparer](FR/08_Segmenter.md) |
-| 09 | [Services de sécurité du réseau](FR/09_Services-de-sécurité-du-réseau.md) |
-| 10 | [Services de cyberdéfense](FR/10_Services-de-cyberdéfense.md) |
-| 11 | [Journalisation et surveillance](FR/11_Journalisation-et-surveillance.md) |
-| 12 | [Configuration des marchés de l’informatique en nuage](FR/12_Configuration-des-marchés.md) |
+| 01 | [Manage identity and access](EN/01_Manage-Identity-Access.md) |
+| 02 | [Use multi-factor authentication](EN/02_Use-MFA.md) |
+| 03 | [Apply conditional access policies](EN/03_Apply-Conditional-Access.md) |
+| 04 | [Enable logging and monitoring](EN/04_Enable-Logging-and-Monitoring.md) |
+| 05 | [Implement data protection](EN/05_Implement-Data-Protection.md) |
+| 06 | [Perform service hardening](EN/06_Perform-Service-Hardening.md) |
+| 07 | [Perform device hardening](EN/07_Perform-Device-Hardening.md) |
+| 08 | [Validate settings](EN/08_Validate-Settings.md) |
 
 ## Considerations
 
