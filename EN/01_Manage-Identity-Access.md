@@ -15,8 +15,6 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism
 * [ ] Configure ADFS to Block Legacy Authentication from the Extranet
 * [ ] Configure ADFS Web Application Proxy Extranet Lockout
-* [ ] When possible, Configure/Prefer Azure AD Smart LockOut to ADFS Web Application Proxy Extranet Lockout"
-Configure conditional access using ADFS
 
 ### Access
 
