@@ -25,6 +25,8 @@ A summary of the cloud guardrails to be implemented in the initial phase are ide
 | 07 | [Perform device hardening](EN/07_Perform-Device-Hardening.md) |
 | 08 | [Validate settings](EN/08_Validate-Settings.md) |
 
+DRAFT detailed implementation guidance is to implement the guardrails is available by contacting zztbscyber@tbs-sct.gc.ca.
+
 ### Considerations
 
 Departments are expected to continue implementing the security requirements as outlined in:
