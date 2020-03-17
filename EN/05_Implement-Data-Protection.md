@@ -2,7 +2,7 @@
 
 ## Objective
 
-Protect data in the cloud.
+Safeguard information and assets hosted in cloud, from unauthorized access, use, disclosure, modification, disposal, transmission, or destruction throughout their life cycle. 
 
 ## Key Considerations
 
