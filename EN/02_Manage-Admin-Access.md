@@ -19,6 +19,7 @@ Establish access control policies and procedures for management of administrativ
 * [ ] Ensure self-service password reset is enabled
 * [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions for endpoint devices accordingly.
 * [ ] Ensure third party integrated applications are not allowed
+* [ ] Control access to Azure AD administration portal
 
 ## Validation
 
