@@ -1,4 +1,4 @@
-# Manage Administrative Access
+# Manage Identity and Access
 
 ## Objective
 
@@ -6,7 +6,21 @@ Establish access control policies and procedures for management of administrativ
 
 ## Key Considerations
 
-* [ ] Implement a mechanism for uniquely identifying and authenticating organizational users, non-organizational users (if applicable), and processes (for example, username and password).
+### Identity
+
+* [ ] Prevent use of Legacy Authentication Protocols
+* [ ] Enable Identity Protection 
+* [ ] Configure Azure AD Password Protection
+* [ ] Configure Federated authentication
+* [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism
+* [ ] Configure ADFS to Block Legacy Authentication from the Extranet
+* [ ] Configure ADFS Web Application Proxy Extranet Lockout
+* [ ] When possible, Configure/Prefer Azure AD Smart LockOut to ADFS Web Application Proxy Extranet Lockout"
+Configure conditional access using ADFS
+
+### Access
+
+* [ ] Implement a mechanism for uniquely identifying and authenticating organizational users, non-organizational users (if applicable), and processes (for example, username and password)
 * [ ] Ensure multifactor authentication is enabled for all users in administrative roles
 * [ ] Ensure that between two and four global admins are designated
 * [ ] Ensure self-service password reset is enabled
