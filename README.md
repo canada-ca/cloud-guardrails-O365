@@ -2,12 +2,39 @@
 
 ([Français](#gabarit-pour-dépôts-de-code-source-ouvert-du-gouvernement-du-canada))
 
-## Template for Government of Canada open source code repositories
+## GC Cloud Guardrails for O365
 
-- What is this project?
-- How does it work?
-- Who will use this project?
-- What is the goal of this project?
+This project will host the minimum guardrails for Microsoft Office 365. The users of this project will be Government of Canada employees deploying cloud-based workloads.
+
+## Purpose
+
+The purpose of the guardrails is to ensure that departments and agencies are implementing a preliminary baseline set of controls within their Microsoft O365 cloud-based environment. 
+
+## Initial Guardrails
+
+A summary of the cloud guardrails to be implemented in the initial phase are identified in the table below:
+
+| ID. | Guardrail |
+| --- | --- |
+| 01 | [Use multi-factor authentication] (EN/01_Use-MFA.md) |
+| 02 | [Manage administrative access](EN/02_Manage-Admin-Access.md) |
+| 03 | [Apply conditional access policies](EN/03_Apply-Conditional-Access.md) |
+| 04 | [Enable logging and monitoring](EN/04_Enable-Logging-and-Monitoring.md) |
+| 05 | [Implement data protection](EN/05_Implement-Data-Protection.md) |
+| 06 | [Perform service hardening](EN/06_Perform-Service-Hardening.md) |
+| 07 | [Perform device hardening](EN/07_Perform-Device-Hardening.md) |
+| 08 | [Validate settings](EN/08_Validate-Settings.md) |
+| 09 | [Develop Incident Response Plan](EN/09_Develop-IR-Plan.md) |
+| 10 | [Enhance email security](EN/10_Enhance-Email-Security.md) |
+
+## Considerations
+
+Departments are expected to continue implementing the security requirements as outlined in:
+
+* [Direction on the Secure Use of Commercial Cloud Services: Security Implementation Notice (SPIN)](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/direction-secure-use-commercial-cloud-services-spin.html)
+* [Government of Canada Security Control Profile for Cloud-Based GC Services](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/cloud-services/government-canada-security-control-profile-cloud-based-it-services.html)
+
+Departments should engage with their IT Security Risk Management teams to obtain advice and guidance on integrating security assessment and authorization activities as part of the implementation of the GC cloud environment. The [Government of Canada Cloud Security Risk Management Approach and Procedures](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/cloud-services/cloud-security-risk-management-approach-procedures.html) outlines activities for Departments to consider as part of the departmental risk management activities.
 
 ### How to Contribute
 
