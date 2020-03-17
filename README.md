@@ -24,8 +24,6 @@ A summary of the cloud guardrails to be implemented in the initial phase are ide
 | 06 | [Perform service hardening](EN/06_Perform-Service-Hardening.md) |
 | 07 | [Perform device hardening](EN/07_Perform-Device-Hardening.md) |
 | 08 | [Validate settings](EN/08_Validate-Settings.md) |
-| 09 | [Develop Incident Response Plan](EN/09_Develop-IR-Plan.md) |
-| 10 | [Enhance email security](EN/10_Enhance-Email-Security.md) |
 
 ### Considerations
 
