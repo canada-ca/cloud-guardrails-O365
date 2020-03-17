@@ -23,11 +23,10 @@ Configure conditional access using ADFS
 * [ ] Implement a mechanism for uniquely identifying and authenticating organizational users, non-organizational users (if applicable), and processes (for example, username and password)
 * [ ] Ensure multifactor authentication is enabled for all users in administrative roles
 * [ ] Ensure that between two and four global admins are designated
-* [ ] Enable Privileged Access Management
+* [ ] Implement role-based access and use roles with least privileges where possible (e.g. use non-global administrative roles)
 * [ ] Ensure modern authentication for Exchange Online is enabled
 * [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
 * [ ] Configure Office 365 Global Administrator role members
-* [ ] Use Non-Global Administrative roles
 * [ ] Use dedicated accounts to perform Administrative Tasks
 * [ ] Ensure modern authentication for SharePoint applications is required
 * [ ] Ensure modern authentication for Skype for Business Online is enabled
