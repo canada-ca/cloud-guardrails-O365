@@ -9,7 +9,7 @@ Manage identities and establish access control policies and procedures for manag
 ### Identity
 
 * [ ] Prevent use of Legacy Authentication Protocols
-* [ ] Enable Identity Protection 
+* [ ] Enable Identity Protection
 * [ ] Configure Azure AD Password Protection
 * [ ] Leverage Federated authentication where available
 * [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism
@@ -50,4 +50,3 @@ Manage identities and establish access control policies and procedures for manag
 4. Refer to the [Guidance on Cloud Authentication for the Government of Canada](https://intranet.canada.ca/wg-tg/cagc-angc-eng.asp)
 5. Refer to the [Recommendations for Two-Factor User Authentication Within the Government of Canada Enterprise Domain](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp)
 6. Related security controls: AC‑2, AC‑2(1), AC‑3, AC‑5, AC‑6, AC‑6(5), AC‑6(10), AC‑7, AC‑9, AC‑19, AC‑20(3), IA‑2, IA‑2(1), IA‑2(2), IA‑2(11), IA‑4, IA‑5, IA‑5(1), IA‑5(6), IA‑5(7), IA‑5(13), IA‑6, IA‑8
-

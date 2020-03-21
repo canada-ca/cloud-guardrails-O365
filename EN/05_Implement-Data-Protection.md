@@ -2,7 +2,7 @@
 
 ## Objective
 
-Safeguard information and assets hosted in cloud, from unauthorized access, use, disclosure, modification, disposal, transmission, or destruction throughout their life cycle. 
+Safeguard information and assets hosted in cloud, from unauthorized access, use, disclosure, modification, disposal, transmission, or destruction throughout their life cycle.
 
 ## Key Considerations
 
@@ -14,7 +14,7 @@ Safeguard information and assets hosted in cloud, from unauthorized access, use,
 * [ ] Ensure DLP policies are enabled to protect GC Office 365 email and documents
 * [ ] Leverage Office 365 Advanced Data Governance for data governance, retention, and expiration.
 * [ ] Ensure Exchange Online Spam Policies are set correctly
-* [ ] Use Azure Information Protection for classification and labelling and information protection of internal documents and emails 
+* [ ] Use Azure Information Protection for classification and labelling and information protection of internal documents and emails
 
 ## Validation
 

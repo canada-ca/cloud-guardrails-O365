@@ -24,7 +24,7 @@ The security posture of the devices being used to access the service should be c
 ## References
 
 1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html)
-2. CSE Top 10 
+2. CSE Top 10
 3. Refer to [CCCS ITSP.30.031 V2 User Authentication Guidance for Information Technology Systems](https://cyber.gc.ca/en/guidance/user-authentication-guidance-information-technology-systems-itsp30031-v3)
 4. Refer to the [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html)
 5. Refer to the [ITPIN 2018-03](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/policy-implementation-notices/direction-windows10-desktop-operating-system-migration-configuration.html)
