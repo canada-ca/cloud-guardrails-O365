@@ -22,6 +22,10 @@ Minimize available services and control connectivity by disabling services as we
 * [ ] Ensure that users understand the categorization of the Teams site (e.g. Team sites may only be approved for unclassified information)
 * [ ] Ensure that users understand their responsibilities for managing information including saving decisions made in the departmental IM respository
 * [ ] Owners of team sites are responsible for the management of their Office 365 groups which are the security access control groups that allow access to the team site
+* [ ] Ensure you review the Microsoft Apps, Third party Apps and Tenant App that your organization will allow to use within teams
+* [ ] Disable external access unless your organization requires collaboration from external users
+* [ ] Disable guest access unless your organization requires collaboration with guests
+* [ ] Disable file sharing services (ShareFile, Dropbox, Box,  Google Drive) if they have not been approved for use in your organization
 
 ### Exchange Online
 
