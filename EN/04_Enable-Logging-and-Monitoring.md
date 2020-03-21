@@ -11,7 +11,7 @@ Enable logging for the cloud environment and for cloud-based workloads.
 * [ ] Implement adequate level of logging and reporting, including a security audit log function in all information systems.
 * [ ] Ensure mailbox auditing for all users is Enabled
 * [ ] Ensure Microsoft 365 audit log search is Enabled
-* [ ] Leverage Office 365 Management Activity API to retrieve information about user, admin, system, and policy actions and events from Office 365 and Azure AD activity logs. More details are available at https://docs.microsoft.com/en-us/office/office-365-management-api/office-365-management-activity-api-reference 
+* [ ] Leverage Office 365 Management Activity API to retrieve information about user, admin, system, and policy actions and events from Office 365 and Azure AD activity logs. More details are available at <https://docs.microsoft.com/en-us/office/office-365-management-api/office-365-management-activity-api-reference>
 * [ ] Identify the events within the solution that must be audited in accordance with [GC Event Logging](https://www.gcpedia.gc.ca/gcwiki/images/e/e3/GC_Event_Logging_Strategy.pdf).
 
 ### Monitoring

@@ -2,7 +2,7 @@
 
 ## Objective
 
-Multi-factor authentication (MFA) is a method of authentication that requires the use of more than one verification method and adds a second layer of security to user sign-ins and transactions. It provides an additional layer of protection to a strong password strategy by providing a way of 'double checking' that you really are the person you are claiming to be when you're using online services. With MFA in place, Office 365 user accounts are still protected against unauthorized access even if a user's password is compromised. 
+Multi-factor authentication (MFA) is a method of authentication that requires the use of more than one verification method and adds a second layer of security to user sign-ins and transactions. It provides an additional layer of protection to a strong password strategy by providing a way of 'double checking' that you really are the person you are claiming to be when you're using online services. With MFA in place, Office 365 user accounts are still protected against unauthorized access even if a user's password is compromised.
 
 ## Key Considerations
 
@@ -22,4 +22,3 @@ Multi-factor authentication (MFA) is a method of authentication that requires th
 4. Refer to the [Guidance on Cloud Authentication for the Government of Canada](https://intranet.canada.ca/wg-tg/cagc-angc-eng.asp)
 5. Refer to the [Recommendations for Two-Factor User Authentication Within the Government of Canada Enterprise Domain](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp)
 6. Related security controls: AC‑2, AC‑2(1), AC‑3, AC‑5, AC‑6, AC‑6(5), AC‑6(10), AC‑7, AC‑9, AC‑19, AC‑20(3), IA‑2, IA‑2(1), IA‑2(2), IA‑2(11), IA‑4, IA‑5, IA‑5(1), IA‑5(6), IA‑5(7), IA‑5(13), IA‑6, IA‑8
-
