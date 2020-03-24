@@ -2,7 +2,7 @@
 
 ## Objective
 
-Continuously monitoring system events and performance, and including a security audit log function in all information systems, enables the detection of incidents in support of continued delivery of services. It is essential that an adequate level of logging and reporting is configured for the cloud environment and for cloud-based workloads.
+Continuously monitor system events and performance and include a security audit log function in all information systems to enable the detection of incidents. It is essential that an adequate level of logging and reporting is configured for the cloud environment and for cloud-based workloads.
 
 ## Key Considerations
 
