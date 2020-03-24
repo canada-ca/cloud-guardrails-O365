@@ -25,6 +25,12 @@ Some examples are :
 
 - [ ] Prevent any unauthorised devices from accessing sensitive business or personal information. 
 - [ ] Ensure that users understand their responsibilities when using personal devices to access the data and services and the risks of sharing business data with unauthorised users
+* [ ] For Corporate Owned Devices, at a minimum, ensure that the following configurations are enforced:
+* Allows access to the Web Application Proxy (WAP) and authentication policies to ensure that the device is corporately owned
+* Ensure that MFA is enabled for all accounts including use of OTP application
+* [ ] For personal devices, at a minimum, ensure that the following configurations are enforced:
+* Ensure that MFA is enabled for all accounts including use of OTP application
+* Configure the data classification capabilities
 
 ## Validation
 
