@@ -2,14 +2,12 @@
 
 ## Objective
 
-Multi-factor authentication (MFA) is a method of authentication that requires the use of more than one verification method and adds a second layer of security to user sign-ins and transactions. 
+Multi-factor authentication (MFA) is a method of authentication that requires the use of more than one verification method such as
+* Something you know (typically a password);
+* Something you have (a trusted device such as a mobile phone);
+* Something you are (biometrics);
 
-MFA works by requiring two or more of the following authentication methods:
-• Something you know (typically a password);
-• Something you have (a trusted device such as a mobile phone);
-• Something you are (biometrics);
-
-MFA provides an additional layer of protection to a strong password strategy by providing a way of 'double checking' that you really are the person you are claiming to be when you're using online services. With MFA in place, Office 365 user accounts are still protected against unauthorized access even if a user's password is compromised.
+MFA adds a second layer of security to user sign-ins and transactions. It provides an additional layer of protection to a strong password strategy by providing a way of 'double checking' that you really are the person you are claiming to be when you're using online services. With MFA in place, Office 365 user accounts are still protected against unauthorized access even if a user's password is compromised.
 
 ## Key Considerations
 
