@@ -6,7 +6,7 @@ The security posture of the devices being used to access the service should be c
 
 ## Key Considerations
 
-* [ ] Use GC managed endpoints to access sensitive information
+* [ ] Use trusted GC managed endpoints when accessing sensitive information
 * [ ] Ensure mobile device management polices are set to require advanced security configurations to protect from basic internet attacks
 * [ ] Ensure mobile devices require the use of a password
 * [ ] Configure mobile device password policy is configured, in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
