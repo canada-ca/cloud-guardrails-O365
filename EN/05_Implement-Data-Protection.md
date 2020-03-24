@@ -11,7 +11,7 @@ Safeguard information and assets hosted in cloud, from unauthorized access, use,
 * [ ] Ensure data in transit is encrypted by default (e.g. TLS v1.2, etc.).
 * [ ] Leverage encryption mechanisms to protect the confidentiality and integrity of data hosted in the cloud service.
 * [ ] Use CSE-approved cryptographic algorithms and protocols, in accordance with [40.111](https://cyber.gc.ca/en/guidance/cryptographic-algorithms-unclassified-protected-and-protected-b-information-itsp40111) and [40.062](https://www.cse-cst.gc.ca/en/system/files/pdf_documents/itsp.40.062-eng.pdf).
-* [ ] Ensure cloud service level data loss prevention (DLP) policies are enabled to Exchange Online, Sharepoint, etc.
+* [ ] Enable cloud service level Data Loss Prevention (DLP) policies to allow Exchange Online and SharePoint Online content to be scanned for specific types of data like social security numbers, credit card numbers, or passwords.
 * [ ] Leverage Office 365 Advanced Data Governance for data governance, retention, and expiration.
 * [ ] Ensure Exchange Online Spam and Protection Policies are set correctly per [device hardening guardrail](EN/07_Perform-Device-Hardening.md)
 * [ ] Use Azure Information Protection for classification and labelling and information protection of internal documents and emails. Apply a standardized taxonomy for use in Office 365 as ell as for endpoints.
