@@ -10,17 +10,17 @@ Conditional Access is the tool used by Azure Active Directory to bring signals t
 * [ ] Ensure that users understand their responsibilities when using personal devices to access the data and services and the risks of sharing business data with unauthorised users
 * [ ] Establish Conditional Access Policies (More information is available at <https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview>.
 
-* Some examples are :
-*_Any access attempt from outside of the corporate network would either be blocked or require Multifactor Authentication (MFA);_*
-*_Any access to the system should be from GC managed devices;;_*
-*_Any access to the system should be from trusted locations; and;_*
-*_Any Administrative-level access would require MFA;_*
+* Some examples are:
+- Any access attempt from outside of the corporate network would either be blocked or require Multifactor Authentication (MFA);
+- Any access to the system should be from GC managed devices;
+- Any access to the system should be from trusted locations; and
+- Any Administrative-level access would require MFA
 
 * [ ] Implement policies to monitor and prevent:
 
-*_Risky users;_*
-*_Risky sign-ins;_*
-*_Risk detections;_*
+- Risky users;
+- Risky sign-ins; and
+- Risk detections
 
 * [ ] Implement device-based conditional access policy and compliance status to either allow or block access to apps and services
 
