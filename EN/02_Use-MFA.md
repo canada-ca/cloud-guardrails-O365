@@ -11,7 +11,7 @@ MFA adds a second layer of security to user sign-ins and transactions. It provid
 
 ## Key Considerations
 
-* [ ] Implement multi-factor authentication mechanism for external facing interfaces and remote network (cloud) access, in accordance with the [Recommendations for Two-Factor User Authentication Within the Government of Canada Enterprise Domain](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp) which recommends, at a minimum, combining:
+* [ ] [Implement](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#setup) multi-factor authentication mechanism for external facing interfaces and remote network (cloud) access, in accordance with the [Recommendations for Two-Factor User Authentication Within the Government of Canada Enterprise Domain](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp) which recommends, at a minimum, combining:
 * a Level 2 user ID and password with a GC-managed smartphone using either a push notification or an One-time Password (OTP) application; OR
 * a Level 2 user ID and password with an OTP device
 
