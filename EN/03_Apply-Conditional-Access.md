@@ -21,6 +21,11 @@ Some examples are :
 
 - [ ] Implement device-based conditional access policy and compliance status to either allow or block access to apps and services
 
+## Additional Considerations
+
+- [ ] Prevent any unauthorised devices from accessing sensitive business or personal information. 
+- [ ] Ensure that users understand their responsibilities when using personal devices to access the data and services and the risks of sharing business data with unauthorised users
+
 ## Validation
 
 - [ ] TBD
