@@ -19,7 +19,8 @@ Safeguard information and assets hosted in cloud, from unauthorized access, use,
 ## Additional Considerations
 
 * [ ] Use automated DLP with AIP for greater consistency and security beyond manual user assignment
-* [ ] Configure policies to establish [Information barriers (IB)](https://docs.microsoft.com/en-us/microsoftteams/information-barriers-in-teams) to prevent individuals or groups from communicating with each other
+* [ ] Configure policies to establish [Information Barriers (IB)](https://docs.microsoft.com/en-us/microsoftteams/information-barriers-in-teams) to prevent individuals or groups from communicating with each other
+* [ ] Use [Compliance Boundaries](https://docs.microsoft.com/en-us/microsoft-365/compliance/set-up-compliance-boundaries?view=o365-worldwide) to create logical boundaries that control the user content locations (such as mailboxes, SharePoint sites, and OneDrive accounts) and support eDiscovery.
 
 ## Validation
 
