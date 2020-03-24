@@ -12,7 +12,7 @@ The purpose of the guardrails is to ensure that departments and agencies are imp
 
 ## Initial Guardrails
 
-A summary of the cloud guardrails to be implemented in the initial phase are identified in the table below:
+A summary of the cloud guardrails to be implemented in the initial phase are identified in the table below.
 
 | ID. | Guardrail |
 | --- | --- |
@@ -25,7 +25,7 @@ A summary of the cloud guardrails to be implemented in the initial phase are ide
 | 07 | [Perform device hardening](EN/07_Perform-Device-Hardening.md) |
 | 08 | [Validate settings](EN/08_Validate-Settings.md) |
 
-DRAFT detailed implementation guidance is to implement the guardrails is available by contacting zztbscyber@tbs-sct.gc.ca. Please note that this is a living document and subject to change as new services and features are made available.
+**_DRAFT detailed implementation guidance is to implement the guardrails is available by contacting zztbscyber@tbs-sct.gc.ca. Please note that this is a living document and subject to change as new services and features are made available._**
 
 ### Considerations
 
