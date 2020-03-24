@@ -34,11 +34,12 @@ Manage identities and establish access control policies and procedures for manag
 
 * [ ] Regularly review access reports for all administrative accounts. 
 * [ ] Ensure that the following reports are reviewed at least weekly: 
-*** [ ] Azure AD 'Risky sign-ins' report
-*** [ ] User role group changes
-*** [ ] Account Provisioning Activity report
-*** [ ] non-global administrator role group assignments
-*** [ ] Self-service password reset activity report
+
+-- Azure AD 'Risky sign-ins' report
+-- User role group changes
+-- Account Provisioning Activity report
+-- non-global administrator role group assignments
+-- Self-service password reset activity report
 
 ## Additional Considerations
 
