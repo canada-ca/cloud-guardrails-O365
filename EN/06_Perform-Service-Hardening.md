@@ -43,6 +43,12 @@ Minimize available services and control connectivity by disabling services as we
 * [ ] Establish a minimum Domain-based Message Authentication, Reporting & Conformance (DMARC) policy of “p=none” with at least one address defined as a recipient of aggregate reports, as outlined in CCCS’s Implementation Guidance for Email Domain Protection
 * [ ] Add the Canadian Centre for Cyber Security (CCCS) as an aggregate report recipient in the DMARC records. The address that must be included is dmarc@cyber.gc.ca
 
+## Additional Considerations
+
+* [ ] Where possible, use automated incident handling and remediation of O365 threats
+* [ ] Enable threat intelligence services to assist in the hardening of O365 Advanced Threat Protection
+* [ ] Increase monitor and control of the clou environment by using CASB and UEBA services
+
 ## Validation
 
 * [ ] TBD
