@@ -10,7 +10,7 @@ The security posture of the devices being used to access the service should be c
 * [ ] Ensure mobile devices require the use of a password
 * [ ] Configure mobile device password policy is configured, in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
 * [ ] Ensure that users cannot connect from devices that are jail broken or rooted
-* [ ] Ensure that settings are enable to lock multiple devices after a period of inactivity to prevent unauthorized access
+* [ ] Configure settings to lock multiple devices after a period of inactivity to prevent unauthorized access
 * [ ] Ensure that mobile device encryption is enabled to prevent unauthorized access to mobile data
 * [ ] Ensure that devices connecting have AV and a local firewall enabled
 * [ ] Ensure mobile device management policies are required for email profiles
