@@ -31,11 +31,11 @@ Minimize available services and control connectivity by disabling services as we
 
 * [ ] Ensure modern authentication for Exchange Online is enabled
 * [ ] Ensure the Common Attachment Types Filter is enabled
-* [ ] Ensure mail transport rules do not forward email to external domains
+* [ ] Ensure mail transport rules [do not forward](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#forwarding) email to external domains
 * [ ] Ensure mail transport rules do not whitelist specific domains
-* [ ] Ensure that an anti-phishing policy has been created
+* [ ] Ensure that an [anti-phishing policy](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#8-protect-your-email-from-phishing-attacks) has been created
 * [ ] Ensure notifications for internal users sending malware is Enabled
-* [ ] Ensure the Advanced Threat Protection Safe Links policy is enabled
+* [ ] Ensure the [Advanced Threat Protection Safe Links](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#10-protect-against-phishing-attacks-with-atp-safe-links) policy is enabled
 * [ ] Disable unused services per mailbox
 * [ ] Configure Transport rule for [ransomware](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#ransomware) to block file extensions that are commonly used for ransomware, or to warn users who receive these attachments in email
 * [ ] Authorize all sending IP addresses in Sender Policy Framework (SPF) and ensure that DKIM is enabled for all Exchange Online Domains
@@ -45,6 +45,8 @@ Minimize available services and control connectivity by disabling services as we
 
 ## Additional Considerations
 
+* [ ] Use [Office Message Encryption](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#7-use-office-message-encryption) to provide protection options when sending mail marked as "Do not forward" or "Encrypt"
+* [ ] Consider enabling the [Advanced Threat Protection Safe Attachments](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#9-protect-against-malicious-attachments-and-files-with-atp-safe-attachments) policy 
 * [ ] Where possible, use automated incident handling and remediation of O365 threats
 * [ ] Enable threat intelligence services to assist in the hardening of O365 Advanced Threat Protection
 * [ ] Increase monitor and control of the clou environment by using CASB and UEBA services
