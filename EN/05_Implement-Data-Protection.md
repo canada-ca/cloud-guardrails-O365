@@ -14,7 +14,9 @@ Safeguard information and assets hosted in cloud, from unauthorized access, use,
 * [ ] Enable cloud service level Data Loss Prevention (DLP) policies to allow Exchange Online and SharePoint Online content to be scanned for specific types of data like social security numbers, credit card numbers, or passwords.
 * [ ] Leverage Office 365 Advanced Data Governance for data governance, retention, and expiration.
 * [ ] Ensure Exchange Online Spam and Protection Policies are set correctly per [device hardening guardrail](EN/07_Perform-Device-Hardening.md)
-* [ ] Use Azure Information Protection for classification and labelling and information protection of internal documents and emails. Apply a standardized taxonomy for use in Office 365 as ell as for endpoints.
+* [ ] Use Azure Information Protection for classification and labelling and information protection of internal documents and emails and for endpoints.
+* [ ] Ensure expiration time for external sharing links is set
+
 
 ## Additional Considerations
 
