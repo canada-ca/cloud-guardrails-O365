@@ -28,7 +28,7 @@ Continuously monitoring system events and performance, and including a security 
 
 ## Additional Considerations
 
-* [ ] The use of a central logging solution should be considered whenever and wherever possible. 
+* [ ] The use of a central logging solution should be considered whenever and wherever possible. Capabilities that automate event and behaviour analysis, and offer real-time alerting can help to identify possible security threats and incidents.  
 
 ## Validation
 
