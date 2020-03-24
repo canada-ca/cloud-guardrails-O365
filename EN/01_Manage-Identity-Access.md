@@ -23,12 +23,13 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Ensure multifactor authentication is enabled for all users in administrative roles
 * [ ] Ensure that between two and four global admins are designated
 * [ ] Implement role-based access and use roles with least privileges where possible (e.g. use non-global administrative roles)
-* [ ] Ensure modern authentication for Exchange Online is enabled
-* [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
+* [ ] Configure just-in-time access to enable privileged access on an as an when required basis
 * [ ] Configure Office 365 Global Administrator role members
 * [ ] Use dedicated accounts to perform Administrative Tasks
 * [ ] Ensure modern authentication for SharePoint applications is required
 * [ ] Ensure modern authentication for Skype for Business Online is enabled
+* [ ] Ensure modern authentication for Exchange Online is enabled
+* [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
 * [ ] Minimize number of guest users; add only if needed.
 
 ### Monitoring
