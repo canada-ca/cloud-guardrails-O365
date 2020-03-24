@@ -6,7 +6,7 @@ Conditional Access is the tool used by Azure Active Directory to bring signals t
 
 ## Key Considerations
 
-- [ ] Establish Conditional Access Policies (More information is available at <https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview>.
+* [ ] Establish Conditional Access Policies (More information is available at <https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview>.
 
 Some examples are :
 * Any access attempt from outside of the corporate network would either be blocked or require Multifactor Authentication (MFA);
@@ -14,25 +14,24 @@ Some examples are :
 * Any access to the system should be from trusted locations; and
 * Any Administrative-level access would require MFA
 
-- [ ] Implement policies to monitor and prevent:
+* [ ] Implement policies to monitor and prevent:
 * Risky users
 * Risky sign-ins
 * Risk detections
 
-- [ ] Implement device-based conditional access policy and compliance status to either allow or block access to apps and services
+* [ ] Implement device-based conditional access policy and compliance status to either allow or block access to apps and services
 
 ## Additional Considerations
 
-- [ ] Prevent any unauthorised devices from accessing sensitive business or personal information. 
-- [ ] Ensure that users understand their responsibilities when using personal devices to access the data and services and the risks of sharing business data with unauthorised users
-
+* [ ] Prevent any unauthorised devices from accessing sensitive business or personal information. 
+* [ ] Ensure that users understand their responsibilities when using personal devices to access the data and services and the risks of sharing business data with unauthorised users
 * [ ] For Corporate Owned Devices, at a minimum, ensure that the following configurations are enforced:
 * Allows access to the Web Application Proxy (WAP) and authentication policies to ensure that the device is corporately owned
 * Ensure that MFA is enabled for all accounts including use of OTP application
-
 * [ ] For personal devices, at a minimum, ensure that the following configurations are enforced:
 * Ensure that MFA is enabled for all accounts including use of OTP application
 * Configure the data classification capabilities
+* Ensure that users understand their responsibilities when using personal devices to access the data and services and the risks of sharing business data with unauthorised users
 
 ## Validation
 
