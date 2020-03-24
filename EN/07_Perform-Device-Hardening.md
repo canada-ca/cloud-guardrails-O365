@@ -7,6 +7,10 @@ The security posture of the devices being used to access the service should be c
 ## Key Considerations
 
 * [ ] Use GC managed endpoints and validate that the device is compliant such as requiring a minimum or maximum operating system version
+* [ ] As per the [ITPIN 2018-03](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/policy-implementation-notices/direction-windows10-desktop-operating-system-migration-configuration.html), when using Windows 10 devices, the Windows 10 GC Minimum version and configuration as specified on the [GC Windows 10 Configuration Baseline](https://gcconnex.gc.ca/groups/profile/12903340/wtd-common-desktop-operating-environment-environnement-dexploitation-commun-des-ordinateurs-de-bureau-des-atmt?language=en#20998653) (accessible only on the Government of Canada network) page must be implemented. The GC Minimum configuration standard prescribes Windows 10 configuration standards which are necessary to maintain the security of GC networks and workplace technology devices.
+
+### Mobile Device Management
+
 * [ ] Ensure mobile device management polices are set to require advanced security configurations to protect from basic internet attacks
 * [ ] Ensure mobile devices require the use of a password
 * [ ] Configure mobile device password policy is configured, in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
@@ -15,8 +19,11 @@ The security posture of the devices being used to access the service should be c
 * [ ] Ensure that mobile device encryption is enabled to prevent unauthorized access to mobile data
 * [ ] Ensure that devices connecting have AV and a local firewall enabled
 * [ ] Ensure mobile device management policies are required for email profiles
-* [ ] Ensure expiration time for external sharing links is set
-* [ ] As per the [ITPIN 2018-03](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/policy-implementation-notices/direction-windows10-desktop-operating-system-migration-configuration.html), when using Windows 10 devices, the Windows 10 GC Minimum version and configuration as specified on the [GC Windows 10 Configuration Baseline](https://gcconnex.gc.ca/groups/profile/12903340/wtd-common-desktop-operating-environment-environnement-dexploitation-commun-des-ordinateurs-de-bureau-des-atmt?language=en#20998653) (accessible only on the Government of Canada network) page must be implemented. The GC Minimum configuration standard prescribes Windows 10 configuration standards which are necessary to maintain the security of GC networks and workplace technology devices.
+
+## Additional Considerations
+
+- [ ] Prevent any unauthorised devices from accessing sensitive business or personal information. 
+- [ ] Ensure that users understand their responsibilities when using personal devices to access the data and services and the risks of sharing business data with unauthorised users
 
 ## Validation
 
