@@ -15,6 +15,18 @@ Some examples are :
 - Any access to the system should be from trusted locations; and
 - Any Administrative-level access would require MFA
 
+### General
+
+
+- [ ] Implement policies to monitor and prevent:
+* Risky users
+* Risky sign-ins
+* Risk detections
+
+### Additional Considerations 
+
+TBD
+
 ## Validation
 
 - [ ] TBD
