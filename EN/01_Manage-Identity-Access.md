@@ -30,6 +30,14 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Ensure modern authentication for Skype for Business Online is enabled
 * [ ] Minimize number of guest users; add only if needed.
 
+### Monitoring
+
+* [ ] Ensure the Azure AD 'Risky sign-ins' report is reviewed at least weekly
+* [ ] Ensure user role group changes are reviewed at least weekly
+* [ ] Ensure the Account Provisioning Activity report is reviewed at least weekly
+* [ ] Ensure non-global administrator role group assignments are reviewed at least weekly
+* [ ] Ensure the self-service password reset activity report is reviewed at least weekly
+
 ## Additional Considerations
 
 * [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions for endpoint devices accordingly.
