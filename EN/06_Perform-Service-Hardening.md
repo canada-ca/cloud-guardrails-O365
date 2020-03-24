@@ -14,7 +14,7 @@ Minimize available services and control connectivity by disabling services as we
 * [ ] Configure macro execution scanning
 * [ ] Disable macros unless they are in trusted files - Trusted files (signature or location)
 * [ ] Block macros from the Internet
-* [ ] Configure anti-malware protection in your tenant
+* [ ] Configure [anti-malware protection](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-malware-protection?view=o365-worldwide) in the tenant
 * [ ] Review the permissions granted to third party services via Integrated Apps
 
 ### Teams
