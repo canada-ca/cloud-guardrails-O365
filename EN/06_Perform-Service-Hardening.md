@@ -37,7 +37,7 @@ Minimize available services and control connectivity by disabling services as we
 * [ ] Ensure notifications for internal users sending malware is Enabled
 * [ ] Ensure the Advanced Threat Protection Safe Links policy is enabled
 * [ ] Disable unused services per mailbox
-* [ ] Configure Transport rule for ransomware
+* [ ] Configure Transport rule for [ransomware](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#ransomware) to block file extensions that are commonly used for ransomware, or to warn users who receive these attachments in email
 * [ ] Authorize all sending IP addresses in Sender Policy Framework (SPF) and ensure that DKIM is enabled for all Exchange Online Domains
 * [ ] Apply Domain Keys Identified Mail (DKIM) signatures to all outbound messages for all Exchange Online Domains
 * [ ] Establish a minimum Domain-based Message Authentication, Reporting & Conformance (DMARC) policy of “p=none” with at least one address defined as a recipient of aggregate reports, as outlined in CCCS’s Implementation Guidance for Email Domain Protection
