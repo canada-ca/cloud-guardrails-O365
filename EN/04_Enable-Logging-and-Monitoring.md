@@ -2,7 +2,7 @@
 
 ## Objective
 
-Enable logging for the cloud environment and for cloud-based workloads.
+Continuously monitoring system events and performance, and including a security audit log function in all information systems, enables the detection of incidents in support of continued delivery of services. It is essential that an adequate level of logging and reporting is configured for the cloud environment and for cloud-based workloads.
 
 ## Key Considerations
 
@@ -26,11 +26,16 @@ Enable logging for the cloud environment and for cloud-based workloads.
 * [ ] Develop a plan to respond to and understand the impact of security incidents, in accordance with the [GC Cyber Security Event Management Plan](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/government-canada-cyber-security-event-management-plan.html)
 * [ ] Establish an MOU for defensive services and threat monitoring protection services with CCCS
 
+## Additional Considerations
+
+* [ ] The use of a central logging solution should be considered whenever and wherever possible. 
+
 ## Validation
 
 * [ ] Confirm policy for event logging is implemented.
 * [ ] Confirm event logs are being generated.
 * [ ] Confirm that security contact information has been configured to receive alerts and notifications.
+* [ ] Confirm that there is a plan in place to respond to incidents.
 
 ## References
 
