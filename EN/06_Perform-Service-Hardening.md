@@ -51,7 +51,7 @@ Minimize available services and control connectivity by disabling services as we
 * [ ] Consider enabling the [Advanced Threat Protection Safe Attachments](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#9-protect-against-malicious-attachments-and-files-with-atp-safe-attachments) policy 
 * [ ] Where possible, use automated incident handling and remediation of O365 threats
 * [ ] Enable threat intelligence services to assist in the hardening of O365 Advanced Threat Protection
-* [ ] Increase monitor and control of the cloud environment by using services such as Cloud Access Security Broker (CASB) and User and Entity Behavior Analytics (UEBA) services
+* [ ] Enhance monitoring and control of the cloud environment by using services such as Cloud Access Security Broker (CASB) and User and Entity Behavior Analytics (UEBA) services
 * [ ] Ensure product updates and features are reviewed and configured as they become available and where appropriate
 
 ## Validation
