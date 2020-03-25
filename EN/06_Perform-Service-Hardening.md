@@ -23,13 +23,14 @@ Minimize available services and control connectivity by disabling services as we
 * [ ] Ensure that users understand their responsibilities for managing information including saving decisions made in the departmental IM repository
 * [ ] Owners of team sites are responsible for the management of their Office 365 groups which are the security access control groups that allow access to the team site
 * [ ] Ensure you review the Microsoft Apps, Third party Apps and Tenant App that your organization will allow to use within teams
-* [ ] Disable external access unless your organization requires collaboration from external users
+* [ ] Disable external access unless your organization requires collaboration from external users. Configure external access policies to enable collaboration with approved domains.
 * [ ] Disable guest access unless your organization requires collaboration with guests
 * [ ] Disable file sharing services (ShareFile, Dropbox, Box,  Google Drive) if they have not been approved for use in your organization
 
 ### Exchange Online
 
 * [ ] Ensure modern authentication for Exchange Online is enabled
+* [ ] Ensure calendar details sharing with external users is disabled
 * [ ] Configure connection filtering
 * [ ] Ensure the [Common Attachment Types Filter](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios) is enabled
 * [ ] Ensure mail transport rules [do not forward](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#forwarding) email to external domains
@@ -51,6 +52,7 @@ Minimize available services and control connectivity by disabling services as we
 * [ ] Where possible, use automated incident handling and remediation of O365 threats
 * [ ] Enable threat intelligence services to assist in the hardening of O365 Advanced Threat Protection
 * [ ] Increase monitor and control of the cloud environment by using services such as Cloud Access Security Broker (CASB) and User and Entity Behavior Analytics (UEBA) services
+* [ ] Ensure product updates and features are reviewed and configured as they become available and where appropriate
 
 ## Validation
 
