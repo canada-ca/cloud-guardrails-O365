@@ -34,18 +34,7 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
 * [ ] Minimize number of guest users; add only if needed.
 * [ ] Ensure [tenant restrictions](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions) are configured
-
-### Monitoring
-
-* [ ] Regularly review access reports for all administrative accounts. 
-* [ ] Ensure that the following reports are reviewed at least weekly: 
-
-* Azure AD 'Risky sign-ins' report
-* User role group changes
-* Account Provisioning Activity report
-* non-global administrator role group assignments
-* Self-service password reset activity report
-* Tenant restrictions report
+* [ ] Regularly review reports for all administrative accounts and access reports, in accordance with the [Enable Logging and Monitoring](EN/04_Enable-Logging-and-Monitoring.md) guardrail
 
 ## Additional Considerations
 
