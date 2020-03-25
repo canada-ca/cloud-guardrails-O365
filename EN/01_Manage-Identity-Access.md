@@ -11,11 +11,13 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Prevent use of Legacy Authentication Protocols
 * [ ] Enable Identity Protection
 * [ ] Configure Azure AD Password Protection
+* [ ] Configure break glass accounts in Azure AD
 * [ ] Leverage Federated authentication where available
 * [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism
 * [ ] Configure ADFS to Block Legacy Authentication from the Extranet
 * [ ] Configure ADFS Web Application Proxy Extranet Lockout
-* [ ] Configure break glass accounts in Azure AD
+* [ ] Install  trusted certificate on the ADFS server
+* [ ] Implement additional security seetings in ADFS to mitigate man-in-the -middle attacks
 
 ### Access
 
@@ -31,6 +33,7 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Ensure modern authentication for Exchange Online is enabled
 * [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
 * [ ] Minimize number of guest users; add only if needed.
+* [ ] Ensure [tenant restrictions](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions) are configured
 
 ### Monitoring
 
@@ -42,6 +45,7 @@ Manage identities and establish access control policies and procedures for manag
 * Account Provisioning Activity report
 * non-global administrator role group assignments
 * Self-service password reset activity report
+* Tenant restrictions report
 
 ## Additional Considerations
 
