@@ -13,7 +13,7 @@ Safeguard information and assets hosted in cloud, from unauthorized access, use,
 * [ ] Use CSE-approved cryptographic algorithms and protocols, in accordance with [40.111](https://cyber.gc.ca/en/guidance/cryptographic-algorithms-unclassified-protected-and-protected-b-information-itsp40111) and [40.062](https://www.cse-cst.gc.ca/en/system/files/pdf_documents/itsp.40.062-eng.pdf).
 * [ ] Enable cloud service level Data Loss Prevention (DLP) policies to allow Exchange Online and SharePoint Online content to be scanned for specific types of data like social security numbers, credit card numbers, or passwords.
 * [ ] Ensure Exchange Online Spam and Protection Policies are set correctly per [device hardening guardrail](EN/07_Perform-Device-Hardening.md)
-* [ ] Use Azure Information Protection for classification and labelling and information protection of internal documents and emails and for endpoints.
+* [ ] Configure classification policies to protect internal documents and emails
 * [ ] Ensure expiration time for external sharing links is set
 
 ## Additional Considerations
