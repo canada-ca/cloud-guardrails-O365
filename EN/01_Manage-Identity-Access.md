@@ -28,6 +28,7 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Configure just-in-time access to enable privileged access on an as an when required basis
 * [ ] Configure Office 365 Global Administrator role members
 * [ ] Use dedicated accounts to perform Administrative Tasks
+* [ ] Control Access to Azure AD administration portal
 * [ ] Ensure modern authentication for SharePoint applications is required
 * [ ] Ensure modern authentication for Skype for Business Online is enabled
 * [ ] Ensure modern authentication for Exchange Online is enabled
@@ -40,7 +41,7 @@ Manage identities and establish access control policies and procedures for manag
 
 * [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions for endpoint devices accordingly.
 * [ ] Configure just-in-time access to enable administrative access on an as an when required basis
-* [ ] Control Access to Azure AD administration portal
+* [ ] Control Microsoft support access to customer tenant via customer lockbox feature 
 
 ## Validation
 
