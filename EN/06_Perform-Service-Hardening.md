@@ -6,7 +6,7 @@ Minimize available services and control connectivity by disabling services as we
 
 ## Key Considerations
 
-* [ ] Configuring  External collaboration settings
+* [ ] Configure External collaboration settings
 * [ ] Configure Azure Information protection
 * [ ] Ensure O365 ATP SafeLinks for Office Applications is Enabled
 * [ ] Disable macros where they're not used
