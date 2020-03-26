@@ -30,6 +30,7 @@ Conditional Access is the tool used by Azure Active Directory to bring signals t
 - Ensure that MFA is enabled for all accounts including use of OTP application
 
 * [ ] For **personal devices**, at a minimum, ensure that the following configurations are enforced:
+
 - Ensure that MFA is enabled for all accounts including use of OTP application
 - Configure the data classification capabilities to monitoring and protect sensitive data 
 - Configure reverse proxy using [Microsoft Cloud App Security(MCAS)](https://docs.microsoft.com/en-us/cloud-app-security/proxy-intro-aad) to protect data when using web browsers
