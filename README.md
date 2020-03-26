@@ -72,7 +72,7 @@ Un résumé des mesures de sécurité d’informatique en nuage à mettre en œu
 | 07 | [Exécuter le renforcement des appareils](FR/07_Exécuter-le-renforcement-des-appareils.md) |
 | 08 | [Valider les paramètres](FR/08_Valider-les-paramètres.md) |
 
-**_L’ÉBAUCHE du guide de mise en œuvre détaillé pour mettre en œuvre les mesures de sécurité est disponible sur site [GCpedia](https://www.gcpedia.gc.ca/gcwiki/images/0/0b/Office_365_Security_Baseline_Configuration.xlsx) (accessible only on the Government of Canada network). Veuillez prendre note qu’il s’agit d’un document constamment modifié assujetti au changement au fur et à mesure que de nouveaux services et de nouvelles fonctionnalités sont offerts._**
+**_L’ÉBAUCHE du guide de mise en œuvre détaillé pour mettre en œuvre les mesures de sécurité est disponible sur site [GCpedia](https://www.gcpedia.gc.ca/gcwiki/images/0/0b/Office_365_Security_Baseline_Configuration.xlsx) (accessible uniquement sur le réseau du gouvernement du Canada). Veuillez prendre note qu’il s’agit d’un document constamment modifié assujetti au changement au fur et à mesure que de nouveaux services et de nouvelles fonctionnalités sont offerts._**
 
 ## Considerations
 
