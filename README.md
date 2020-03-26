@@ -49,28 +49,28 @@ The Canada wordmark and related graphics associated with this distribution are p
 ______________________
 
 <!-- markdownlint-disable MD024 MD025 -->
-# GC Mesures de sécurité du nuage pour O365
+# Mesures de sécurité d’informatique en nuage du GC pour O365
 
-Ce projet hébergera les mesures de sécurité du nuage. Les utilisateurs de ce projet seront des employés du gouvernement du Canada qui déploieront des charges de travail en nuage.
+Ce projet hébergera les mesures de sécurité minimums pour Microsoft Office 365. Les utilisateurs de ce projet seront les employés du gouvernement du Canada qui déploient des charges de travail d’informatique en nuage.
 
 ## Objet
 
-Le présent projet met l’accent sur un ensemble préliminaire de mesures de sécurité de base pour veiller à ce que l’environnement des services d’informatique en nuage ait un ensemble minimal de configurations pour l’environnement de l’informatique en nuage. Cette section décrit un ensemble de mesures de sécurité minimales qui font partie du cadre de mise en œuvre du GC.
+Le but des mesures de sécurité est de veiller à ce que les ministères et les organismes mettent en œuvre un ensemble préliminaire de mesures au sein de leur environnement d’informatique en nuage Microsoft O365.
 
-## Résumé
+## Mesures de sécurité initiales
 
-Un résumé des mesures de sécurité du nuage à mettre en œuvre au cours de la phase initiale est présenté dans le tableau ci-dessous :
+Un résumé des mesures de sécurité d’informatique en nuage à mettre en œuvre dans le cadre de la phase initiale est fourni dans le tableau ci-dessous :
 
 | ID. | Mesures de sécurité du nuage |
 | --- | --- |
-| 01 | [Manage identity and access](EN/01_Manage-Identity-Access.md) |
-| 02 | [Use multi-factor authentication](EN/02_Use-MFA.md) |
-| 03 | [Apply conditional access policies](EN/03_Apply-Conditional-Access.md) |
-| 04 | [Enable logging and monitoring](EN/04_Enable-Logging-and-Monitoring.md) |
-| 05 | [Implement data protection](EN/05_Implement-Data-Protection.md) |
-| 06 | [Perform service hardening](EN/06_Perform-Service-Hardening.md) |
-| 07 | [Perform device hardening](EN/07_Perform-Device-Hardening.md) |
-| 08 | [Validate settings](EN/08_Validate-Settings.md) |
+| 01 | [Gérer l’identité et l’accès](FR/01_Gérer-l’identité-et-l’accès.md) |
+| 02 | [Utiliser l’authentification à facteurs multiples](FR/02_Utiliser-AFM.md) |
+| 03 | [Appliquer des politiques d’accès conditionnel](FR/03_Appliquer-des-politiques-d’accès-conditionnel.md) |
+| 04 | [Activer la journalisation et la surveillance](FR/04_Activer-la-journalisation-et-la-surveillance.md) |
+| 05 | [Mettre en œuvre la protection des donnéesn](FR/05_Mettre-en-œuvre-la-protection-des-données.md) |
+| 06 | [Exécuter le renforcement des services](FR/06_Exécuter-le-renforcement-des-services.md) |
+| 07 | [Exécuter le renforcement des appareils](FR/07_Exécuter-le-renforcement-des-appareils.md) |
+| 08 | [Valider les paramètres](FR/08_Valider-les-paramètres.md) |
 
 ## Considerations
 
