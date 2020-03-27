@@ -2,11 +2,10 @@
 
 ## Objective
 
-Conditional Access is the tool used by Azure Active Directory to bring signals together, to make decisions, and enforce organizational policies. A Conditional Access policy specifies the app or services you want to protect, the conditions under which the apps or services can be accessed, and the users the policy applies to. Policies are enforced after the first-factor authentication has been completed.
+Conditional Access is the tool used by Azure Active Directory to bring signals together, to make decisions, and enforce organizational policies. A Conditional Access policy specifies the app or services you want to protect, the conditions under which the apps or services can be accessed, and the users the policy applies to. Policies are enforced after the first-factor authentication has been completed. For example, policies to prevent any unauthorised devices from accessing sensitive business or personal information should be considered.
 
 ## Key Considerations
 
-* [ ] Prevent any unauthorised devices from accessing sensitive business or personal information
 * [ ] Ensure that users understand their responsibilities when using personal devices to access the data and services and the risks of sharing business data with unauthorised users
 * [ ] Establish [Conditional Access Policies](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) to address common access concerns such as:
 
