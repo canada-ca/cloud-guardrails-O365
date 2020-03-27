@@ -2,13 +2,12 @@
 
 ## Objective
 
-Continuously monitor system events and performance and include a security audit log function in all information systems to enable the detection of incidents. It is essential that an adequate level of logging and reporting is configured for the cloud environment and for cloud-based workloads.
+Continuously monitor system events and performance and include a security audit log function in all information systems to enable the detection of incidents. It is essential that an adequate level of logging and reporting including a security audit log function in all information systems hosted in the cloud environment and for cloud-based workloads.
 
 ## Key Considerations
 
 ### Logging
 
-* [ ] Implement adequate level of logging and reporting, including a security audit log function in all information systems
 * [ ] Ensure mailbox auditing for all users is Enabled
 * [ ] Ensure Microsoft 365 audit log search is Enabled
 * [ ] Leverage Office 365 Management Activity API to retrieve information about user, admin, system, and policy actions and events from Office 365 and Azure AD activity logs. More details are available at <https://docs.microsoft.com/en-us/office/office-365-management-api/office-365-management-activity-api-reference>.
