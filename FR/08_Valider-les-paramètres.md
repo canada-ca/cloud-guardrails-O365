@@ -1,24 +1,19 @@
 # Valider les paramètres
 
-## Objective
+## Objectif
 
-Use built-in tools to validate the security configuration and settings for O365 and apply recommendations as appropriate to improve security posture. Ensure that there is a consistent level of protection across GC data, identities, and devices. 
+Utiliser les outils intégrés pour valider la configuration et les paramètres de sécurité pour O365 et appliquer les recommandations, le cas échéant, pour améliorer la position de sécurité. Veiller à ce qu’il y ait un niveau uniforme de protection pour l’ensemble des données, des identités et des appareils du GC.
 
-## Key Considerations
+## Principales considérations
 
-* [ ] Validate that the recommended [identity and device access configurations](https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-policies-configurations?view=o365-worldwide) have been implemented
-* [ ] Use Microsoft Secure Score to measure the current state of the O365 configuration and security posture. A higher number indicates that more improvement actions need to be taken.
-* [ ] Compare current state posture with benchmarks and establish key performance indicators (KPIs)
+* [ ] Confirmer que les [configurations d’accès des identités et des appareils](https://docs.microsoft.com/fr-ca/microsoft-365/enterprise/microsoft-365-policies-configurations?view=o365-worldwide) recommandées ont été mises en œuvre.
+* [ ] Utiliser Degré de sécurisation Microsoft pour mesurer l’état actuel de la configuration et de la position de sécurité d’O365. Une valeur plus élevée indique que plus de mesures d’amélioration doivent être prises.
+* [ ] Comparer la position de l’état actuel avec les niveaux de référence et établir des indicateurs de rendement clés (IRC).
 
 ## Validation
 
-* [ ] TBD
+* [ ] À déterminer
 
 ## References
 
-1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.2.3
-2. CSE Top 10 #3
-3. Refer to [CCCS ITSP.30.031 V2 User Authentication Guidance for Information Technology Systems](https://cyber.gc.ca/en/guidance/user-authentication-guidance-information-technology-systems-itsp30031-v3)
-4. Refer to the [Guidance on Cloud Authentication for the Government of Canada](https://intranet.canada.ca/wg-tg/cagc-angc-eng.asp)
-5. Refer to the [Recommendations for Two-Factor User Authentication Within the Government of Canada Enterprise Domain](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp)
-6. Related security controls: AC‑2, AC‑2(1), AC‑3, AC‑5, AC‑6, AC‑6(5), AC‑6(10), AC‑7, AC‑9, AC‑19, AC‑20(3), IA‑2, IA‑2(1), IA‑2(2), IA‑2(11), IA‑4, IA‑5, IA‑5(1), IA‑5(6), IA‑5(7), IA‑5(13), IA‑6, IA‑8
+1. [AMOPS 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html)
