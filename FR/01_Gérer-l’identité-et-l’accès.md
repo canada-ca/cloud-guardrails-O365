@@ -34,7 +34,7 @@ Gérer les identités et établir des stratégies et des procédures de contrôl
 * [ ]  Veiller à ce que les [restrictions des locataires] (https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions) soient configurées
 * [ ] Examiner régulièrement les rapports sur l’accès pour tous les comptes d’administrateur et les rapports, conformément à [Enable logging and monitoring](04_Enable-Logging-and-Monitoring.md) guardrail
 
-## Additional Considerations
+## Autres considérations
 
 * [ ] Déterminer les restrictions d’accès et les exigences de configuration pour les dispositifs d’extrémité délivrés par le GC, y compris ceux des utilisateurs privilégiés et non privilégiés, et configurer les restrictions d’accès pour les dispositifs d’extrémité en conséquence
 * [ ] Configurer l’accès juste-à-temps pour permettre l’accès administratif au besoin
@@ -45,7 +45,7 @@ Gérer les identités et établir des stratégies et des procédures de contrôl
 * [ ] Confirmer qu’un plan et un processus de gestion des comptes privilégiés ont été consignés.
 * [ ] Confirmer que la politique sur les mots de passe respecte [l’Orientation sur les mots de passe du GC](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/orientation-sur-mots-passe.html), le cas échéant.
 
-## References
+## Références
 
 1. [AMOPS 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), section 6.2.3
 2. Les 10 principales mesures de sécurité du CST, numéro 3.
