@@ -31,8 +31,8 @@ Gérer les identités et établir des stratégies et des procédures de contrôl
 * [ ]  Veiller à ce que l’authentification moderne pour Exchange Online soit activée.
 * [ ]  Configurer la politique sur les mots de passe conformément à [l’Orientation sur les mots de passe du GC](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/orientation-sur-mots-passe.html).
 * [ ]  Réduire au minimum le nombre d’utilisateurs invités; ajouter uniquement au besoin.
-* [ ]  Veiller à ce que les [restrictions des locataires] (https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions) soient configurées
-* [ ] Examiner régulièrement les rapports sur l’accès pour tous les comptes d’administrateur et les rapports, conformément à [Enable logging and monitoring](04_Enable-Logging-and-Monitoring.md) guardrail
+* [ ]  Veiller à ce que les [restrictions des locataires](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions) soient configurées
+* [ ] Examiner régulièrement les rapports sur l’accès pour tous les comptes d’administrateur et les rapports, conformément à [Activer la journalisation et la surveillance](04_Activer-la-journalisation-et-la-surveillance.md) mesures de sécurité 
 
 ## Autres considérations
 
