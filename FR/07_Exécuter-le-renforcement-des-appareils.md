@@ -1,14 +1,15 @@
 # Exécuter le renforcement des appareils
 
-## Objective
+## Objectif
 
-The security posture of the devices being used to access the service should be considered. As a minimum, organisations need to ensure that devices are fully patched, are not using administrative privileges, have malware defences in place and are collecting security logs.
+La position de sécurité des appareils utilisés pour avoir accès au service devrait être considérée. À tout le moins, les organisations doivent veiller à ce que les appareils aient les plus récentes mises à jour installées, n’utilisent pas les privilèges d’administrateur, aient des mesures de protection contre les logiciels malveillants et collectent des journaux de sécurité.
 
-## Key Considerations
+## Principales considérations
 
-* [ ] Prevent any unauthorised devices from accessing sensitive business or personal information. 
-* [ ] Use GC managed endpoints and validate that the device is compliant such as requiring a minimum, and supported, operating system version
-* [ ] As per the [ITPIN 2018-03](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/policy-implementation-notices/direction-windows10-desktop-operating-system-migration-configuration.html), when using Windows 10 devices, the Windows 10 GC Minimum version and configuration as specified on the [GC Windows 10 Configuration Baseline](https://gcconnex.gc.ca/groups/profile/12903340/wtd-common-desktop-operating-environment-environnement-dexploitation-commun-des-ordinateurs-de-bureau-des-atmt?language=en#20998653) (accessible only on the Government of Canada network) page must be implemented. The GC Minimum configuration standard prescribes Windows 10 configuration standards which are necessary to maintain the security of GC networks and workplace technology devices.
+* [ ] Empêcher tout appareil non autorisé à avoir accès à des renseignements opérationnels ou personnels de nature sensible.
+* [ ] Utiliser les points d’extrémité gérés par le GC et confirmer que l’appareil est conforme, comme exiger une version minimale et prise en charge du système d’exploitation.
+* [ ] Conformément à [l’AMPTI 2018-03](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/technologiques-modernes-nouveaux/avis-mise-oeuvre-politique/directive-migration-configuration-systeme-exploitation-bureau-windows10.html), pour les appareils Windows 10, la version minimum du GC de Windows 10 et la configuration indiquées dans la page sur les [niveaux de référence pour la configuration de Windows 10 du GC](https://gcconnex.gc.ca/groups/profile/12903340/wtd-common-desktop-operating-environment-environnement-dexploitation-commun-des-ordinateurs-de-bureau-des-atmt?language=en#20998653) (accessible seulement sur le réseau du gouvernement du Canada) doivent être mises en œuvre. La norme de configuration minimale du GC prescrit des normes de configuration de Windows 10 qui sont nécessaires pour maintenir la sécurité des réseaux et des appareils technologiques en milieu de travail du GC.
+
 
 ### Mobile Device Management
 
