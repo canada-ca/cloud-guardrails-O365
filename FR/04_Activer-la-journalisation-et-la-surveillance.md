@@ -17,11 +17,20 @@ Continuellement surveiller les événements et le rendement du système et inclu
 
 ### Surveillance
 
-* [ ] Surveiller continuellement les événements et le rendement des systèmes. Veiller à ce que les rapports soient examinés au moins chaque semaine.
-  Configurer les alertes et les notifications à envoyer à la personne-ressource ou à l’équipe appropriée de l’organisation.
-  Configurer ou utiliser une source de temps faisant autorité aux fins d’estampille temporelle des documents d’audit produits par les composants de votre solution.
-   Élaborer un plan pour répondre aux répercussions des incidents de sécurité, et les comprendre, conformément au [Plan de gestion des événements de cybersécurité du GC](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/gestion-securite-identite/plan-gestion-evenements-cybersecurite-gouvernement-canada.html).
-  Établir un protocole d’entente (PE) pour les services de défense et de surveillance des menaces avec le Centre canadien pour la cybersécurité (CCC).
+* [ ] Surveiller continuellement les événements et le rendement des systèmes. Veiller à ce que les rapports soient examinés au moins une fois par semaine, notamment :
+
+- Accéder aux rapports pour tous les comptes administratifs
+- Rapport d’ouverture de session 'Risky sign-ins' d’Azure AD
+- Changements au groupe de rôles des utilisateurs
+- Rapport d’activité de provisionnement de compte
+- affectation de groupes de rôles d’administrateurs non mondiaux
+- Rapport d’activité de réinitialisation de mot de passe libre-service
+- Rapport sur les restrictions imposées aux locataires
+
+* [ ] Configurer les alertes et les notifications à envoyer à la personne-ressource ou à l’équipe appropriée de l’organisation.
+* [ ] Configurer ou utiliser une source de temps faisant autorité aux fins d’estampille temporelle des documents d’audit produits par les composants de votre solution.
+* [ ] Élaborer un plan pour répondre aux répercussions des incidents de sécurité, et les comprendre, conformément au [Plan de gestion des événements de cybersécurité du GC](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/gestion-securite-identite/plan-gestion-evenements-cybersecurite-gouvernement-canada.html).
+* [ ] Établir un protocole d’entente (PE) pour les services de défense et de surveillance des menaces avec le Centre canadien pour la cybersécurité (CCC).
 
 ## Autres considérations
 
