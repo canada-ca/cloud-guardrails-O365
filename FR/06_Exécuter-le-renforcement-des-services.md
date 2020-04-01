@@ -56,7 +56,7 @@ Réduire au minimum les services disponibles et contrôler la connectivité en d
 
 * [ ] À déterminer
 
-## References
+## Références
 
 1. [AMOPS 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), section 6.2.3.
 2. Les 10 principales mesures de sécurité du CST, numéro 3.
