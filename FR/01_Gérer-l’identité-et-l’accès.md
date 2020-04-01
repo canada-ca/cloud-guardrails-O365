@@ -1,58 +1,55 @@
-# Manage Identity and Access
+# Gérer l’identité et l’accès
 
-## Objective
+## Objectif
 
-Manage identities and establish access control policies and procedures for management of administrative privileges.
+Gérer les identités et établir des stratégies et des procédures de contrôle d’accès pour la gestion des privilèges d’administration.
 
-## Key Considerations
+## Principales considérations
 
-### Identity
+### Identité
 
-* [ ] Prevent use of Legacy Authentication Protocols
-* [ ] Enable Identity Protection
-* [ ] Configure Azure AD Password Protection
-* [ ] Configure break glass accounts in Azure AD
-* [ ] Leverage Federated authentication where available
-* [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism
-* [ ] Configure ADFS to Block Legacy Authentication from the Extranet
-* [ ] Configure ADFS Web Application Proxy Extranet Lockout
-* [ ] Install  trusted certificate on the ADFS server
-* [ ] Implement additional security seetings in ADFS to mitigate man-in-the -middle attacks
+* [ ] Empêcher l’utilisation d’anciens protocoles d’authentification.
+* [ ] Activer la protection de l’identité.
+* [ ] Configurer la protection par mot de passe d’Azure AD.
+* [ ] Tirer profit de l’authentification fédérée, si disponible.
+* [ ] Configurer ADFS pour utiliser Azure MFA comme principal mécanisme d’authentification.
+* [ ] Configurer ADFS pour bloquer les anciennes authentifications à partir de l’extranet.
+* [ ] Configurer le verrouillage de l’extranet au proxy d’applications Web.
+* [ ] Configurer les comptes d’urgence dans Azure AD.
 
-### Access
+### Accès
 
-* [ ] Implement a mechanism for uniquely identifying and authenticating organizational users, non-organizational users (if applicable), and processes (for example, username and password)
-* [ ] Ensure multifactor authentication is enabled for all users in administrative roles
-* [ ] Ensure that between two and four global admins are designated
-* [ ] Implement role-based access and use roles with least privileges where possible (e.g. use non-global administrative roles)
-* [ ] Configure just-in-time access to enable privileged access on an as an when required basis
-* [ ] Configure Office 365 Global Administrator role members
-* [ ] Use dedicated accounts to perform Administrative Tasks
-* [ ] Control Access to Azure AD administration portal
-* [ ] Ensure modern authentication for SharePoint applications is required
-* [ ] Ensure modern authentication for Skype for Business Online is enabled
-* [ ] Ensure modern authentication for Exchange Online is enabled
-* [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
-* [ ] Minimize number of guest users; add only if needed.
-* [ ] Ensure [tenant restrictions](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions) are configured
-* [ ] Regularly review reports for all administrative accounts and access reports, in accordance with the [Enable logging and monitoring](04_Enable-Logging-and-Monitoring.md) guardrail
+* [ ]  Mettre en œuvre un mécanisme pour identifier et authentifier de façon unique les utilisateurs organisationnels, les utilisateurs non organisationnels (le cas échéant) et les processus (p. ex., nom d’utilisateur et mot de passe).
+* [ ]  Veiller à ce que l’authentification à facteurs multiples soit activée pour tous les utilisateurs occupant des rôles d’administrateur.
+* [ ]  Veiller à ce que de deux à quatre administrateurs généraux soient nommés.
+* [ ]  Mettre en œuvre l’accès fondé sur les rôles et utiliser les rôles avec le moins de privilèges dans la mesure du possible (p. ex., utiliser des rôles d’administrateur non général).
+* [ ]  Configurer l’accès juste-à-temps pour permettre un accès privilégié au fur et à mesure des besoins.* 
+* [ ]  Configurer les membres du rôle d’administrateur général d’Office 365.
+* [ ]  Utiliser des comptes dédiés pour exécuter les tâches administratives.
+* [ ]  Veiller à ce que l’authentification moderne pour les applications SharePoint soit requise.
+* [ ]  Veiller à ce que l’authentification moderne pour Skype for Business Online soit activée.
+* [ ]  Veiller à ce que l’authentification moderne pour Exchange Online soit activée.
+* [ ]  Configurer la politique sur les mots de passe conformément à [l’Orientation sur les mots de passe du GC](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/orientation-sur-mots-passe.html).
+* [ ]  Réduire au minimum le nombre d’utilisateurs invités; ajouter uniquement au besoin.
+* [ ]  Veiller à ce que les [restrictions des locataires] (https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions) soient configurées
+* [ ] Examiner régulièrement les rapports sur l’accès pour tous les comptes d’administrateur et les rapports, conformément à [Enable logging and monitoring](04_Enable-Logging-and-Monitoring.md) guardrail
 
 ## Additional Considerations
 
-* [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions for endpoint devices accordingly
-* [ ] Configure just-in-time access to enable administrative access on an as an when required basis
-* [ ] Limit disclosure of sensitive GC information to support personnel. If access to data is required, leverage the customer lockbox feature.
+* [ ] Déterminer les restrictions d’accès et les exigences de configuration pour les dispositifs d’extrémité délivrés par le GC, y compris ceux des utilisateurs privilégiés et non privilégiés, et configurer les restrictions d’accès pour les dispositifs d’extrémité en conséquence
+* [ ] Configurer l’accès juste-à-temps pour permettre l’accès administratif au besoin
+* [ ] Limiter la divulgation de renseignements de nature délicate du GC au personnel de soutien. Si l’accès aux données est requis, tirer parti de la fonction de boîte à serrure du client.
 
 ## Validation
 
-* [ ] Confirm that a privileged account management plan and process has been documented.
-* [ ] Confirm password policy aligns with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html) as appropriate.
+* [ ] Confirmer qu’un plan et un processus de gestion des comptes privilégiés ont été consignés.
+* [ ] Confirmer que la politique sur les mots de passe respecte [l’Orientation sur les mots de passe du GC](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/orientation-sur-mots-passe.html), le cas échéant.
 
 ## References
 
-1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.2.3
-2. CSE Top 10 #3
-3. Refer to [CCCS ITSP.30.031 V2 User Authentication Guidance for Information Technology Systems](https://cyber.gc.ca/en/guidance/user-authentication-guidance-information-technology-systems-itsp30031-v3)
-4. Refer to the [Guidance on Cloud Authentication for the Government of Canada](https://intranet.canada.ca/wg-tg/cagc-angc-eng.asp)
-5. Refer to the [Recommendations for Two-Factor User Authentication Within the Government of Canada Enterprise Domain](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp)
-6. Related security controls: AC‑2, AC‑2(1), AC‑3, AC‑5, AC‑6, AC‑6(5), AC‑6(10), AC‑7, AC‑9, AC‑19, AC‑20(3), IA‑2, IA‑2(1), IA‑2(2), IA‑2(11), IA‑4, IA‑5, IA‑5(1), IA‑5(6), IA‑5(7), IA‑5(13), IA‑6, IA‑8
+1. [AMOPS 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), section 6.2.3
+2. Les 10 principales mesures de sécurité du CST, numéro 3.
+3. Voir le [Guide sur l’authentification des utilisateurs dans les systèmes de technologie de l’information (ITSP.30.031 v3)](https://cyber.gc.ca/fr/orientation/guide-sur-lauthentification-des-utilisateurs-dans-les-systemes-de-technologie-de)
+4. Voir [l’Orientation sur l’authentification du nuage à l’intention du gouvernement du Canada](https://intranet.canada.ca/wg-tg/cagc-angc-fra.asp)
+5. Voir les [Recommandations pour l’authentification de l’utilisateur à deux facteurs au sein du domaine opérationnel du gouvernement du Canada](https://intranet.canada.ca/wg-tg/rtua-rafu-fra.asp)
+6.	Mesures de sécurité connexes : AC-2, AC-2(1), AC-3, AC-5, AC-6, AC-6(5), AC-6(10), AC-7, AC-9, AC-19, AC-20(3), IA-2, IA-2(1), IA-2(2), IA-2(11), IA-4, IA-5, IA-5(1), IA-5(6), IA-5(7), IA-5(13), IA-6, IA-8.
