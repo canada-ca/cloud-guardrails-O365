@@ -14,6 +14,6 @@ Utiliser les outils intégrés pour valider la configuration et les paramètres 
 
 * [ ] À déterminer
 
-## References
+## Références
 
 1. [AMOPS 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html)
