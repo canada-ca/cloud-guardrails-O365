@@ -1,27 +1,27 @@
-# Use Multi-Factor Authentication
+# Utiliser l’authentification à facteurs multiples
 
-## Objective
+## Objectif
 
-Multi-factor authentication (MFA) is a method of authentication that requires the use of more than one verification method such as
-* Something you know (typically a password);
-* Something you have (a trusted device such as a mobile phone);
-* Something you are (biometrics);
+L’authentification à facteurs multiples (AFM) est une méthode d’authentification qui requiert l’utilisation de plus d’une méthode de vérification, comme :
+* quelque chose que vous connaissez (habituellement un mot de passe);
+* quelque chose que vous avez (un appareil de confiance comme un téléphone mobile);
+* quelque chose que vous êtes (données biométriques).
 
-MFA adds a second layer of security to user sign-ins and transactions. It provides an additional layer of protection to a strong password strategy by providing a way of 'double checking' that you really are the person you are claiming to be when you're using online services. With MFA in place, Office 365 user accounts are still protected against unauthorized access even if a user's password is compromised.
+L’AFM ajoute une deuxième couche de sécurité à l’ouverture de session et aux opérations des utilisateurs. Elle offre une couche supplémentaire de protection à une stratégie de mot de passe robuste en fournissant un moyen de « contre-vérifier » que vous êtes réellement la personne que vous affirmez être lorsque vous utilisez des services en ligne. Avec l’AFM en place, les comptes d’utilisateur Office 365 sont protégés contre l’accès non autorisé, même si le mot de passe d’un utilisateur est compromis.
 
-## Key Considerations
+## Principales considérations
 
-* [ ] [Implement](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#setup) multi-factor authentication mechanism for external facing interfaces and remote network (cloud) access, in accordance with the [Recommendations for Two-Factor User Authentication Within the Government of Canada Enterprise Domain](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp) which recommends, at a minimum, combining:
-* a Level 2 user ID and password with a GC-managed smartphone using either a push notification or an One-time Password (OTP) application; OR
-* a Level 2 user ID and password with an OTP device
+* [ ] [Mettre en œuvre]https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#setup) un mécanisme d’authentification à facteurs multiples pour les interfaces externes et l’accès au réseau à distance (nuage) conformément aux [Recommandations pour l’authentification de l’utilisateur à deux facteurs au sein du domaine opérationnel du gouvernement du Canada](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp) lesquelles recommandent, à tout le moins, d’utiliser l’une des combinaisons suivantes :
+* un ID utilisateur et un mot de passe de niveau 2 avec un téléphone intelligent géré par le GC au moyen d’une notification poussée ou d’une application de mot de passe à usage unique;
+* un ID utilisateur et un mot de passe de niveau 2 avec un appareil protégé par un mot de passe à usage unique.
 
-* [ ] Ensure multifactor authentication is enabled for all users in administrative roles
+* [ ] Veiller à ce que l’authentification à facteurs multiples soit activée pour tous les utilisateurs occupant des rôles d’administrateur.
 
 ## Validation
 
-* [ ] Confirm that a multi-factor is enabled on the accounts.
+* [ ] Confirmer que l’authentification à facteurs multiples est activée pour les comptes.
 
-## References
+## Références
 
 1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.2.3
 2. CSE Top 10 #3
