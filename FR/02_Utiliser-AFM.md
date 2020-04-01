@@ -11,7 +11,7 @@ L’AFM ajoute une deuxième couche de sécurité à l’ouverture de session et
 
 ## Principales considérations
 
-* [ ] [Mettre en œuvre]https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#setup) un mécanisme d’authentification à facteurs multiples pour les interfaces externes et l’accès au réseau à distance (nuage) conformément aux [Recommandations pour l’authentification de l’utilisateur à deux facteurs au sein du domaine opérationnel du gouvernement du Canada](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp) lesquelles recommandent, à tout le moins, d’utiliser l’une des combinaisons suivantes :
+* [ ] [Mettre en œuvre](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#setup) un mécanisme d’authentification à facteurs multiples pour les interfaces externes et l’accès au réseau à distance (nuage) conformément aux [Recommandations pour l’authentification de l’utilisateur à deux facteurs au sein du domaine opérationnel du gouvernement du Canada](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp) lesquelles recommandent, à tout le moins, d’utiliser l’une des combinaisons suivantes :
 * un ID utilisateur et un mot de passe de niveau 2 avec un téléphone intelligent géré par le GC au moyen d’une notification poussée ou d’une application de mot de passe à usage unique;
 * un ID utilisateur et un mot de passe de niveau 2 avec un appareil protégé par un mot de passe à usage unique.
 
