@@ -30,7 +30,7 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Use dedicated accounts to perform Administrative Tasks
 * [ ] Control Access to Azure AD administration portal
 * [ ] Ensure modern authentication for SharePoint applications is required
-* [ ] Ensure modern authentication for Skype for Business Online and Teams is enabled
+* [ ] Ensure modern authentication for Teams (formerly Skype for Business Online) is enabled
 * [ ] Ensure modern authentication for Exchange Online is enabled
 * [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
 * [ ] Minimize number of guest users; add only if needed.
