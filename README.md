@@ -27,6 +27,8 @@ A summary of the cloud guardrails to be implemented in the initial phase are ide
 
 **_DRAFT detailed implementation guidance is to implement the guardrails is available on [GCpedia](https://www.gcpedia.gc.ca/gcwiki/images/0/0b/Office_365_Security_Baseline_Configuration.xlsx) (accessible only on the Government of Canada network). Please note that this is a living document and subject to change as new services and features are made available._**
 
+Departments should consider using [Microsoft Secure Score](https://docs.microsoft.com/en-us/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide) when starting their configuration. Secure Score is a measurement of an organization's security posture, with a higher number indicating more improvement actions taken. It provides recommendations and guidance that can protect the organization from threats. 
+
 ### Considerations
 
 Departments are expected to continue implementing the security requirements as outlined in:
