@@ -32,6 +32,7 @@ Minimize available services and control connectivity by disabling services as we
 * [ ] Ensure modern authentication for Exchange Online is enabled
 * [ ] Ensure calendar details sharing with external users is disabled
 * [ ] Configure connection filtering
+* [ ] Ensure Exchange Online Spam and Protection Policies are set correctly
 * [ ] Ensure the [Common Attachment Types Filter](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios) is enabled
 * [ ] Ensure mail transport rules [do not forward](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#forwarding) email to external domains
 * [ ] Ensure mail transport rules do not whitelist specific domains
