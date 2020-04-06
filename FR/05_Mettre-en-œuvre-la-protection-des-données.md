@@ -15,7 +15,7 @@ Protéger les renseignements et les actifs hébergés dans le nuage de l’accè
 * [ ] Tirer profit de la Gouvernance des données avancée d’Office 365 pour la gouvernance, la rétention et l’expiration des données.
 * [ ]  Veiller à ce que les politiques antipourriel et de protection d’Exchange Online soient configurées correctement conformément aux [mesures de renforcement des appareils](https://github.com/canada-ca/cloud-guardrails-O365/blob/master/FR/07_Exécuter-le-renforcement-des-appareils.md).
 * [ ]  Utiliser Azure Information Protection (AIP) pour la classification, l’étiquetage et la protection des renseignements des documents internes et des courriels pour les points d’extrémité.
- * [ ]  Veiller à ce que les délais d’expiration pour les liens de partage externe soient configurés.
+* [ ]  Veiller à ce que les délais d’expiration pour les liens de partage externe soient configurés.
 
 ## Autres considérations
 

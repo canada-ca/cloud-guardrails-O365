@@ -3,6 +3,7 @@
 ## Objective
 
 Multi-factor authentication (MFA) is a method of authentication that requires the use of more than one verification method such as
+
 * Something you know (typically a password);
 * Something you have (a trusted device such as a mobile phone);
 * Something you are (biometrics);
@@ -12,9 +13,8 @@ MFA adds a second layer of security to user sign-ins and transactions. It provid
 ## Key Considerations
 
 * [ ] [Implement](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#setup) multi-factor authentication mechanism for external facing interfaces and remote network (cloud) access, in accordance with the [Recommendations for Two-Factor User Authentication Within the Government of Canada Enterprise Domain](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp) which recommends, at a minimum, combining:
-* a Level 2 user ID and password with a GC-managed smartphone using either a push notification or an One-time Password (OTP) application; OR
-* a Level 2 user ID and password with an OTP device
-
+  * a Level 2 user ID and password with a GC-managed smartphone using either a push notification or an One-time Password (OTP) application; OR
+  * a Level 2 user ID and password with an OTP device
 * [ ] Ensure multifactor authentication is enabled for all users in administrative roles
 
 ## Validation
