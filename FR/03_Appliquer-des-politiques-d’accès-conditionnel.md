@@ -10,38 +10,38 @@ L’accès conditionnel est l’outil utilisé par Azure Active Directory pour r
 * [ ] Veiller à ce que les utilisateurs comprennent leurs responsabilités lorsqu’ils utilisent des appareils personnels pour avoir accès aux données et aux services et les risques d’échanger des données opérationnelles avec des utilisateurs non autorisés.
 * [ ] Établir [les politiques d’accès conditionnel](https://docs.microsoft.com/fr-ca/azure/active-directory/conditional-access/overview) comme les suivantes :
 
-- Bloquer ou exiger l’authentification multifactorielle (MFA) pour toute tentative d’accès à partir de l’extérieur du réseau de l’entreprise
-- Exiger l’authentification multifactorielle pour les utilisateurs ayant des rôles administratifs
-- Nécessite une authentification multifactorielle pour les tâches de gestion Azure
-- Blocage des connexions pour les utilisateurs qui tentent d’utiliser les protocoles d’authentification existants
-- Exiger des emplacements de confiance pour l’enregistrement d’authentification multifactorielle Azure
-- Blocage ou octroi d’accès à partir de sites spécifiques 
-- Blocage des comportements de connexion risqués
-- Exiger des dispositifs gérés par le GC pour des applications particulières en tenant compte de la catégorisation des données
+* Bloquer ou exiger l’authentification multifactorielle (MFA) pour toute tentative d’accès à partir de l’extérieur du réseau de l’entreprise
+* Exiger l’authentification multifactorielle pour les utilisateurs ayant des rôles administratifs
+* Nécessite une authentification multifactorielle pour les tâches de gestion Azure
+* Blocage des connexions pour les utilisateurs qui tentent d’utiliser les protocoles d’authentification existants
+* Exiger des emplacements de confiance pour l’enregistrement d’authentification multifactorielle Azure
+* Blocage ou octroi d’accès à partir de sites spécifiques
+* Blocage des comportements de connexion risqués
+* Exiger des dispositifs gérés par le GC pour des applications particulières en tenant compte de la catégorisation des données
 
 * [ ] Mettre en œuvre des politiques pour surveiller et prévenir ce qui suit :
 
-- les utilisateurs présentant un risque;
-- les connexions à risque;
-- les détections de risques.
+* les utilisateurs présentant un risque;
+* les connexions à risque;
+* les détections de risques.
 
 * [ ] Mettre en œuvre la politique d’accès conditionnel axée sur les appareils et l’état de conformité de manière à permettre ou bloquer l’accès aux applications et aux services.
 
 ## Autres considérations
 
 * [ ] Pour les **appareils appartenant à l’organisation**, à tout le moins, veiller à ce que les configurations suivantes soient appliquées :
-- permettre l’accès au proxy d’applications Web (WAP) et aux politiques d’authentification afin de veiller à ce que l’appareil appartienne à l’organisation;
-- veiller à ce que l’AFM soit activée pour tous les comptes, y compris l’utilisation de l’application de mot de passe à usage unique.
+* permettre l’accès au proxy d’applications Web (WAP) et aux politiques d’authentification afin de veiller à ce que l’appareil appartienne à l’organisation;
+* veiller à ce que l’AFM soit activée pour tous les comptes, y compris l’utilisation de l’application de mot de passe à usage unique.
 * [ ] Pour les **appareils personnels**, à tout le moins, veiller à ce que les configurations suivantes soient appliquées :
-- veiller à ce que l’AFM soit activée pour tous les comptes, y compris l’utilisation de l’application de mot de passe à usage unique;
-- configurer les capacités de classification des données pour surveiller et protéger les données de nature sensible;
-- configurer le proxy inverse au moyen de [Microsoft Cloud App Security (MCAS)](https://docs.microsoft.com/fr-ca/cloud-app-security/proxy-intro-aad) pour protéger les données lorsque l’on utilise des navigateurs Web;
-- utiliser la [gestion des applications mobiles (MAM)](https://docs.microsoft.com/fr-ca/mem/intune/apps/mam-faq) Intune pour protéger les données dans une application. Cela comprend utiliser la MAM et les politiques de protection des applications sur les appareils qui ne sont pas inscrits à la gestion des périphériques mobiles (MDM) Intune.
+* veiller à ce que l’AFM soit activée pour tous les comptes, y compris l’utilisation de l’application de mot de passe à usage unique;
+* configurer les capacités de classification des données pour surveiller et protéger les données de nature sensible;
+* configurer le proxy inverse au moyen de [Microsoft Cloud App Security (MCAS)](https://docs.microsoft.com/fr-ca/cloud-app-security/proxy-intro-aad) pour protéger les données lorsque l’on utilise des navigateurs Web;
+* utiliser la [gestion des applications mobiles (MAM)](https://docs.microsoft.com/fr-ca/mem/intune/apps/mam-faq) Intune pour protéger les données dans une application. Cela comprend utiliser la MAM et les politiques de protection des applications sur les appareils qui ne sont pas inscrits à la gestion des périphériques mobiles (MDM) Intune.
 
 ## Validation
 
-- [ ] Confirmer que des politiques d’accès conditionnel sont en place pour les appareils 
-- [ ] Confirmer que des politiques d’accès conditionnel sont en place pour permettre l’ACM
+* [ ] Confirmer que des politiques d’accès conditionnel sont en place pour les appareils
+* [ ] Confirmer que des politiques d’accès conditionnel sont en place pour permettre l’ACM
 
 ## Références
 

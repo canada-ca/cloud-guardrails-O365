@@ -3,6 +3,7 @@
 ## Objective
 
 Multi-factor authentication (MFA) is a method of authentication that requires the use of more than one verification method such as
+
 * Something you know (typically a password);
 * Something you have (a trusted device such as a mobile phone);
 * Something you are (biometrics);

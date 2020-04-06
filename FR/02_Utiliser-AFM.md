@@ -3,6 +3,7 @@
 ## Objectif
 
 L’authentification à facteurs multiples (AFM) est une méthode d’authentification qui requiert l’utilisation de plus d’une méthode de vérification, comme :
+
 * quelque chose que vous connaissez (habituellement un mot de passe);
 * quelque chose que vous avez (un appareil de confiance comme un téléphone mobile);
 * quelque chose que vous êtes (données biométriques).
