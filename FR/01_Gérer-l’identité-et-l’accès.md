@@ -23,7 +23,7 @@ Gérer les identités et établir des stratégies et des procédures de contrôl
 * [ ]  Veiller à ce que l’authentification à facteurs multiples soit activée pour tous les utilisateurs occupant des rôles d’administrateur.
 * [ ]  Veiller à ce que de deux à quatre administrateurs généraux soient nommés.
 * [ ]  Mettre en œuvre l’accès fondé sur les rôles et utiliser les rôles avec le moins de privilèges dans la mesure du possible (p. ex., utiliser des rôles d’administrateur non général).
-* [ ]  Configurer l’accès juste-à-temps pour permettre un accès privilégié au fur et à mesure des besoins.* 
+* [ ]  Configurer l’accès juste-à-temps pour permettre un accès privilégié au fur et à mesure des besoins.*
 * [ ]  Configurer les membres du rôle d’administrateur général d’Office 365.
 * [ ]  Utiliser des comptes dédiés pour exécuter les tâches administratives.
 * [ ]  Veiller à ce que l’authentification moderne pour les applications SharePoint soit requise.
@@ -32,7 +32,7 @@ Gérer les identités et établir des stratégies et des procédures de contrôl
 * [ ]  Configurer la politique sur les mots de passe conformément à [l’Orientation sur les mots de passe du GC](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/orientation-sur-mots-passe.html).
 * [ ]  Réduire au minimum le nombre d’utilisateurs invités; ajouter uniquement au besoin.
 * [ ]  Veiller à ce que les [restrictions des locataires](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions) soient configurées
-* [ ] Examiner régulièrement les rapports sur l’accès pour tous les comptes d’administrateur et les rapports, conformément à [Activer la journalisation et la surveillance](04_Activer-la-journalisation-et-la-surveillance.md) mesures de sécurité 
+* [ ] Examiner régulièrement les rapports sur l’accès pour tous les comptes d’administrateur et les rapports, conformément à [Activer la journalisation et la surveillance](04_Activer-la-journalisation-et-la-surveillance.md) mesures de sécurité
 
 ## Autres considérations
 
@@ -52,4 +52,4 @@ Gérer les identités et établir des stratégies et des procédures de contrôl
 3. Voir le [Guide sur l’authentification des utilisateurs dans les systèmes de technologie de l’information (ITSP.30.031 v3)](https://cyber.gc.ca/fr/orientation/guide-sur-lauthentification-des-utilisateurs-dans-les-systemes-de-technologie-de)
 4. Voir [l’Orientation sur l’authentification du nuage à l’intention du gouvernement du Canada](https://intranet.canada.ca/wg-tg/cagc-angc-fra.asp) *_(accessible seulement sur le réseau du gouvernement du Canada)_*
 5. Voir les [Recommandations pour l’authentification de l’utilisateur à deux facteurs au sein du domaine opérationnel du gouvernement du Canada](https://intranet.canada.ca/wg-tg/rtua-rafu-fra.asp) *_(accessible seulement sur le réseau du gouvernement du Canada)_*
-6.	Mesures de sécurité connexes : AC-2, AC-2(1), AC-3, AC-5, AC-6, AC-6(5), AC-6(10), AC-7, AC-9, AC-19, AC-20(3), IA-2, IA-2(1), IA-2(2), IA-2(11), IA-4, IA-5, IA-5(1), IA-5(6), IA-5(7), IA-5(13), IA-6, IA-8.
+6. Mesures de sécurité connexes : AC-2, AC-2(1), AC-3, AC-5, AC-6, AC-6(5), AC-6(10), AC-7, AC-9, AC-19, AC-20(3), IA-2, IA-2(1), IA-2(2), IA-2(11), IA-4, IA-5, IA-5(1), IA-5(6), IA-5(7), IA-5(13), IA-6, IA-8.

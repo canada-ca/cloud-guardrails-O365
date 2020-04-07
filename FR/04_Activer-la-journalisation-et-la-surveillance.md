@@ -11,22 +11,20 @@ Continuellement surveiller les événements et le rendement du système et inclu
 * [ ] Mettre en œuvre un niveau approprié de journalisation et d’établissement de rapports, y compris une fonction de journal d’audit de sécurité dans tous les systèmes d’information.
 * [ ] Veiller à ce que l’audit de la boîte de courriels pour tous les utilisateurs soit activé.
 * [ ] Veiller à ce que la recherche du journal d’audit Microsoft 365 soit activée.
-* [ ] Tirer profit de [l’API Activité de gestion Office 365](https://docs.microsoft.com/fr-ca/office/office-365-management-api/office-365-management-activity-api-reference) pour récupérer les renseignements concernant les actions et les événements d’utilisateur, d’administrateur, de système et de politique sur les journaux d’activités d’Office 365 et d’Azure AD. 
+* [ ] Tirer profit de [l’API Activité de gestion Office 365](https://docs.microsoft.com/fr-ca/office/office-365-management-api/office-365-management-activity-api-reference) pour récupérer les renseignements concernant les actions et les événements d’utilisateur, d’administrateur, de système et de politique sur les journaux d’activités d’Office 365 et d’Azure AD.
 * [ ] Indiquer les événements dans la solution qui doivent être audités conformément à la [Journalisation des événements du GC](https://www.gcpedia.gc.ca/gcwiki/images/e/e3/GC_Event_Logging_Strategy.pdf).
 * [ ] Configurer le service pour envoyer les journaux d’audit à une installation centralisée de journalisation, si disponible.
 
 ### Surveillance
 
 * [ ] Surveiller continuellement les événements et le rendement des systèmes. Veiller à ce que les rapports soient examinés au moins une fois par semaine, notamment :
-
-- Accéder aux rapports pour tous les comptes administratifs
-- Rapport d’ouverture de session 'Risky sign-ins' d’Azure AD
-- Changements au groupe de rôles des utilisateurs
-- Rapport d’activité de provisionnement de compte
-- affectation de groupes de rôles d’administrateurs non mondiaux
-- Rapport d’activité de réinitialisation de mot de passe libre-service
-- Rapport sur les restrictions imposées aux locataires
-
+  * Accéder aux rapports pour tous les comptes administratifs
+  * Rapport d’ouverture de session 'Risky sign-ins' d’Azure AD
+  * Changements au groupe de rôles des utilisateurs
+  * Rapport d’activité de provisionnement de compte
+  * affectation de groupes de rôles d’administrateurs non mondiaux
+  * Rapport d’activité de réinitialisation de mot de passe libre-service
+  * Rapport sur les restrictions imposées aux locataires
 * [ ] Configurer les alertes et les notifications à envoyer à la personne-ressource ou à l’équipe appropriée de l’organisation.
 * [ ] Configurer ou utiliser une source de temps faisant autorité aux fins d’estampille temporelle des documents d’audit produits par les composants de votre solution.
 * [ ] Élaborer un plan pour répondre aux répercussions des incidents de sécurité, et les comprendre, conformément au [Plan de gestion des événements de cybersécurité du GC](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/gestion-securite-identite/plan-gestion-evenements-cybersecurite-gouvernement-canada.html).
@@ -47,5 +45,5 @@ Continuellement surveiller les événements et le rendement du système et inclu
 
 1. [AMOPS 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), sections 6.3 et 6.3.1.
 2. Les 10 principales mesures de sécurité du CST, numéro 1, 5 et 8.
-3. Voir l’[Orientation sur la journalisation des événements du GC](https://www.gcpedia.gc.ca/gcwiki/images/e/e3/GC_Event_Logging_Strategy.pdf) 
+3. Voir l’[Orientation sur la journalisation des événements du GC](https://www.gcpedia.gc.ca/gcwiki/images/e/e3/GC_Event_Logging_Strategy.pdf)
 4. Mesures de sécurité connexes : AU 2, AU 3, AU 6, AU 8, AU 9, AU 9(4), AU 12, SI-2, SI-4.
