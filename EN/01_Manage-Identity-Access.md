@@ -33,7 +33,7 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Ensure modern authentication for Teams (formerly Skype for Business Online) is enabled
 * [ ] Ensure modern authentication for Exchange Online is enabled
 * [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
-* [ ] Disable guest user access by default. Add only the minimum number of accounts if needed, in conformance to an approved guest user policy and procedures including ensuring that a [secure sharing environment](https://docs.microsoft.com/en-us/microsoft-365/solutions/create-secure-guest-sharing-environment?view=o365-worldwide) has been established.
+* [ ] Disable guest user access by default. Add only the minimum number of accounts, if needed, in conformance to an approved guest user policy and procedures including ensuring that a [secure sharing environment](https://docs.microsoft.com/en-us/microsoft-365/solutions/create-secure-guest-sharing-environment?view=o365-worldwide) has been established.
 * [ ] Ensure [tenant restrictions](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions) are configured
 * [ ] Regularly review reports for all administrative accounts and access reports, in accordance with the [Enable logging and monitoring](04_Enable-Logging-and-Monitoring.md) guardrail
 
