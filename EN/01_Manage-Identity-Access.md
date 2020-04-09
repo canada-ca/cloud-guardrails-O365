@@ -13,7 +13,7 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Configure Azure AD Password Protection
 * [ ] Configure break glass accounts in Azure AD
 * [ ] Leverage Federated authentication where available
-* [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism
+* [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism, in accordance with conditional access policies (e.g. untrusted location or device)  
 * [ ] Configure ADFS to Block Legacy Authentication from the Extranet
 * [ ] Configure ADFS Web Application Proxy Extranet Lockout
 * [ ] Install  trusted certificate on the ADFS server
