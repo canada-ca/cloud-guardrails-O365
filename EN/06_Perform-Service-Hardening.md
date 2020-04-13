@@ -24,7 +24,7 @@ Minimize available services and control connectivity by disabling services as we
 * [ ] Owners of team sites are responsible for the management of their Office 365 groups which are the security access control groups that allow access to the team site
 * [ ] Ensure you review the Microsoft Apps, Third party Apps and Tenant App that your organization will allow to use within teams
 * [ ] Disable external access unless your organization requires collaboration from external users. Configure external access policies to enable collaboration with approved domains.
-* [ ] Disable guest access unless is required by your organization. Limit the number of guest users to the environment ensuring conformance to the guest user access policy and procedures defined as part of the [Managed Identity and Access](01_Manage-Identity-Access.md) guardrail. 
+* [ ] Disable guest access unless is required by your organization. Limit the number of guest users to the environment ensuring conformance to the guest user access policy and procedures defined as part of the [Managed Identity and Access](01_Manage-Identity-Access.md) guardrail.
 * [ ] Disable file sharing services (ShareFile, Dropbox, Box,  Google Drive) if they have not been approved for use in your organization
 
 ### Exchange Online
