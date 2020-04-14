@@ -9,14 +9,14 @@ Manage identities and establish access control policies and procedures for manag
 ### Identity
 
 * [ ] Prevent use of Legacy Authentication Protocols
-* [ ] Configure Azure AD Password Protection
+* [ ] Configure Azure AD Password Protection in accordance with the Implementation Strategy for GC Password Guidance (*_accesssible on the GC network_*)
 * [ ] Configure break glass accounts in Azure AD
 * [ ] Leverage Federated authentication where available
 * [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism, in accordance with conditional access policies (e.g. untrusted location or device)  
 * [ ] Configure ADFS to Block Legacy Authentication from the Extranet
 * [ ] Configure ADFS Web Application Proxy Extranet Lockout
 * [ ] Install  trusted certificate on the ADFS server
-* [ ] Implement additional security seetings in ADFS to mitigate man-in-the -middle attacks
+* [ ] Implement additional security settings in ADFS to mitigate man-in-the-middle attacks
 
 ### Access
 
