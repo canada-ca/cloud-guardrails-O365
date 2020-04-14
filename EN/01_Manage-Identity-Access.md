@@ -9,7 +9,6 @@ Manage identities and establish access control policies and procedures for manag
 ### Identity
 
 * [ ] Prevent use of Legacy Authentication Protocols
-* [ ] Enable Identity Protection
 * [ ] Configure Azure AD Password Protection
 * [ ] Configure break glass accounts in Azure AD
 * [ ] Leverage Federated authentication where available
@@ -39,6 +38,7 @@ Manage identities and establish access control policies and procedures for manag
 
 ## Additional Considerations
 
+* [ ] Enable Identity Protection
 * [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions for endpoint devices accordingly
 * [ ] Configure just-in-time access to enable administrative access on an as an when required basis
 * [ ] Limit disclosure of sensitive GC information to support personnel. If access to data is required, leverage the customer lockbox feature.
