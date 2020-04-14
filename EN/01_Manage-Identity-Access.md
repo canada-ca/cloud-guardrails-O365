@@ -39,9 +39,9 @@ Manage identities and establish access control policies and procedures for manag
 
 * [ ] Enable Identity Protection
 * [ ] Control administrative tasks with privileged access management
-* [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions for endpoint devices accordingly
 * [ ] Configure just-in-time access to enable administrative access on an as an when required basis
 * [ ] Limit disclosure of sensitive GC information to support personnel. If access to data is required, leverage the customer lockbox feature.
+* [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions for endpoint devices accordingly
 
 ## Validation
 
