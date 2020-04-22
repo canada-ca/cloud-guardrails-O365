@@ -23,7 +23,6 @@ Continuously monitor system events and performance and include a security audit 
   * Account Provisioning Activity report
   * non-global administrator role group assignments
   * Self-service password reset activity report
-  * Tenant restrictions report
   * DLP policy matches report
   * DLP incidents report 
   * DLP false positives and overrides report
