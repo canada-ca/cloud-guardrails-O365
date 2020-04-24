@@ -12,7 +12,9 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Configure Azure AD Password Protection in accordance with the [Implementation Strategy for GC Password Guidance](https://www.gcpedia.gc.ca/gcwiki/images/c/c0/Implementation_Strategy_for_GC_Password_Guidance.pdf) (*_accessible only on the Government of Canada network_*)
 * [ ] Configure break glass accounts in Azure AD
 * [ ] Leverage Federated authentication where available
-* [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism, in accordance with conditional access policies (e.g. untrusted location or device)  
+
+If using ADFS, consider the following:
+* [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism
 * [ ] Configure ADFS to Block Legacy Authentication from the Extranet
 * [ ] Configure ADFS Web Application Proxy Extranet Lockout
 * [ ] Install  trusted certificate on the ADFS server
