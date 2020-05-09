@@ -14,6 +14,7 @@ Manage identities and establish access control policies and procedures for manag
 * [ ] Leverage Federated authentication where available
 
 If using ADFS, consider the following:
+
 * [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism
 * [ ] Configure ADFS to Block Legacy Authentication from the Extranet
 * [ ] Configure ADFS Web Application Proxy Extranet Lockout
