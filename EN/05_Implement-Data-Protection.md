@@ -20,10 +20,10 @@ Safeguard information and assets hosted in cloud, from unauthorized access, use,
 ## Additional Considerations
 
 * [ ] Control document sharing by domains with whitelist or blacklist
-* [ ] Leverage Office 365 Advanced Data Governance for data governance, retention, and expiration.
-* [ ] Explore the use of automated DLP with Azure Information Protection for greater consistency and security beyond manual user assignment
-* [ ] Configure policies to establish [Information Barriers (IB)](https://docs.microsoft.com/en-us/microsoftteams/information-barriers-in-teams) to prevent individuals or groups from communicating with each other
-* [ ] Use [Compliance Boundaries](https://docs.microsoft.com/en-us/microsoft-365/compliance/set-up-compliance-boundaries?view=o365-worldwide) to create logical boundaries that control the user content locations (such as mailboxes, SharePoint sites, and OneDrive accounts) and support eDiscovery.
+* [ ] Explore Office 365 Advanced Data Governance for data governance, retention, and expiration (additional licensing required)
+* [ ] Explore the use of automated DLP with Azure Information Protection for greater consistency and security beyond manual user assignment (additional licensing required)
+* [ ] Investigate establishment of policies with [Information Barriers (IB)](https://docs.microsoft.com/en-us/microsoftteams/information-barriers-in-teams) to prevent individuals or groups from communicating with each other (additional licensing required)
+* [ ] Investigate the use of [Compliance Boundaries](https://docs.microsoft.com/en-us/microsoft-365/compliance/set-up-compliance-boundaries?view=o365-worldwide) to create logical boundaries that control the user content locations (such as mailboxes, SharePoint sites, and OneDrive accounts) and support eDiscovery.
 
 ## Validation
 
