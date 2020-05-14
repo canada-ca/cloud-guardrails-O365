@@ -39,11 +39,11 @@ If using ADFS, consider the following:
 
 ## Additional Considerations
 
-* [ ] Enable Identity Protection
-* [ ] Control administrative tasks with privileged access management
-* [ ] Configure just-in-time access to enable administrative access on an as an when required basis
-* [ ] Limit disclosure of sensitive GC information to support personnel. If access to data is required, leverage the customer lockbox feature.
-* [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions for endpoint devices accordingly
+* [ ] Consider enabling Identity Protection (additional licensing required)
+* [ ] Consider controlling administrative tasks with privileged access management (additional licensing required)
+* [ ] Investigate just-in-time access to enable administrative access on an as an when required basis (additional licensing required)
+* [ ] Limit disclosure of sensitive GC information to support personnel. If access to data is required, leverage the customer lockbox feature (additional licensing required)
+* [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions accordingly
 
 ## Validation
 
