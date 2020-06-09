@@ -30,7 +30,7 @@ Conditional Access is the tool used by Azure Active Directory to bring signals t
 * [ ] For **personal devices**, consider implementing the following settings:
   * Ensuring that MFA is enabled for all accounts including use of OTP application
   * Explore data classification capabilities to monitoring and protect sensitive data
-  * Explore a reverse proxy configuration using [Microsoft Cloud App Security (MCAS)](https://docs.microsoft.com/en-us/cloud-app-security/proxy-intro-aad) to protect data when using web browsers (addtitional licensing required)
+  * Explore a reverse proxy configuration using [Microsoft Cloud App Security (MCAS)](https://docs.microsoft.com/en-us/cloud-app-security/proxy-intro-aad) to protect data when using web browsers (additional licensing required)
   * Explore the use of Intune [Mobile Application Management (MAM)](https://docs.microsoft.com/en-us/mem/intune/apps/mam-faq) to protect data within an application. This includes using MAM and application protection policies on devices not enrolled with Intune Mobile Device Management (MDM).
 
 ## Validation
