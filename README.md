@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/canada-ca/cloud-guardrails-O365.svg?branch=master)](https://travis-ci.com/github/canada-ca/cloud-guardrails-O365)
-
 ([Français](#gabarit-pour-dépôts-de-code-source-ouvert-du-gouvernement-du-canada))
 
 # GC Cloud Guardrails for O365
