@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "chalk": "^4.1.0",
+    "chalk": "^4.1.1",
     "cspell": "^5.3.12",
     "glob": "^7.1.6",
     "markdown-link-check": "^3.8.7",
