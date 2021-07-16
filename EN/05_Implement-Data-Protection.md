@@ -19,7 +19,7 @@ Safeguard information and assets hosted in cloud, from unauthorized access, use,
 
 ## Additional Considerations
 
-* [ ] Control document sharing by domains with whitelist or blacklist
+* [ ] Control document sharing by domains with allow list or deny list
 * [ ] Explore Office 365 Advanced Data Governance for data governance, retention, and expiration (additional licensing required)
 * [ ] Explore the use of automated DLP with Azure Information Protection for greater consistency and security beyond manual user assignment (additional licensing required)
 * [ ] Investigate establishment of policies with [Information Barriers (IB)](https://docs.microsoft.com/en-us/microsoftteams/information-barriers-in-teams) to prevent individuals or groups from communicating with each other (additional licensing required)
