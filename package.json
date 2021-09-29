@@ -11,7 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "chalk": "^4.1.0",
-    "cspell": "^5.10.1",
+    "cspell": "^5.11.1",
     "glob": "^7.2.0",
     "markdown-link-check": "^3.8.7",
     "markdownlint-cli": "^0.28.1"
