@@ -1,6 +1,6 @@
-([Français](#gabarit-pour-dépôts-de-code-source-ouvert-du-gouvernement-du-canada))
-
 # GC Cloud Guardrails for O365
+
+([Français](#mesures-de-sécurité-dinformatique-en-nuage-du-gc-pour-o365))
 
 This project will host the minimum guardrails for Microsoft Office 365. The users of this project will be Government of Canada employees deploying cloud-based workloads.
 
