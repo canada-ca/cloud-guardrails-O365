@@ -48,7 +48,7 @@ If using ADFS, consider the following:
 ## Validation
 
 * [ ] Confirm that a privileged account management plan and process has been documented.
-* [ ] Confirm password policy aligns with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html) (accessible only on the Government of Canada network) as appropriate.
+* [ ] Confirm password policy aligns with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html) (_accessible only on the Government of Canada network_) as appropriate.
 
 ## References
 
