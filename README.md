@@ -51,11 +51,11 @@ ______________________
 <!-- markdownlint-disable MD024 MD025 -->
 # Mesures de sécurité d’informatique en nuage du GC pour O365
 
-Ce projet hébergera les mesures de sécurité minimums pour Microsoft Office 365. Les utilisateurs de ce projet seront les employés du gouvernement du Canada qui déploient des charges de travail d’informatique en nuage.
+Ce projet hébergera les mesures de sécurité minimales pour Microsoft Office 365. Les utilisateurs de ce projet seront des employés du gouvernement du Canada qui déploient des charges de travail dans le nuage.
 
-## Objet
+## But
 
-Le but des mesures de sécurité est de veiller à ce que les ministères et les organismes mettent en œuvre un ensemble préliminaire de mesures au sein de leur environnement d’informatique en nuage Microsoft O365.
+Le but des mesures de sécurité est de veiller à ce que les ministères et les organismes mettent en œuvre un ensemble préliminaire de mesures dans leur propre environnement d’informatique en nuage pour Microsoft O365.
 
 ## Mesures de sécurité initiales
 
@@ -65,14 +65,14 @@ Un résumé des mesures de sécurité d’informatique en nuage à mettre en œu
 | --- | --- |
 | 01 | [Gérer l’identité et l’accès](FR/01_Gérer-l’identité-et-l’accès.md) |
 | 02 | [Utiliser l’authentification à facteurs multiples](FR/02_Utiliser-AFM.md) |
-| 03 | [Appliquer des politiques de contrôle de l’accès conditionnel](FR/03_Appliquer-des-politiques-d’accès-conditionnel.md) |
+| 03 | [Appliquer des politiques d’accès conditionnel](FR/03_Appliquer-des-politiques-d’accès-conditionnel.md) |
 | 04 | [Activer la journalisation et la surveillance](FR/04_Activer-la-journalisation-et-la-surveillance.md) |
-| 05 | [Mettre en œuvre la protection des donnéesn](FR/05_Mettre-en-œuvre-la-protection-des-données.md) |
+| 05 | [Mettre en œuvre la protection des données](FR/05_Mettre-en-œuvre-la-protection-des-données.md) |
 | 06 | [Exécuter le renforcement des services](FR/06_Exécuter-le-renforcement-des-services.md) |
 | 07 | [Exécuter le renforcement des appareils](FR/07_Exécuter-le-renforcement-des-appareils.md) |
 | 08 | [Valider les paramètres](FR/08_Valider-les-paramètres.md) |
 
-**_L’ÉBAUCHE du guide de mise en œuvre détaillé pour mettre en œuvre les mesures de sécurité est disponible sur site [GCpedia](https://www.gcpedia.gc.ca/gcwiki/images/0/0b/Office_365_Security_Baseline_Configuration.xlsx) (accessible uniquement sur le réseau du gouvernement du Canada). Veuillez prendre note qu’il s’agit d’un document constamment modifié assujetti au changement au fur et à mesure que de nouveaux services et de nouvelles fonctionnalités sont offerts._**
+**_L’ÉBAUCHE du guide de mise en œuvre détaillé pour mettre en œuvre les mesures de sécurité est disponible à partir du site [GCpedia](https://www.gcpedia.gc.ca/gcwiki/images/0/0b/Office_365_Security_Baseline_Configuration.xlsx) (accessible uniquement par l’entremise du réseau du gouvernement du Canada). Veuillez prendre note qu’il s’agit d’un document constamment modifié assujetti au changement au fur et à mesure que de nouveaux services et de nouvelles fonctionnalités sont offerts._**
 
 Les ministères devraient envisager d’utiliser [Degré de sécurisation Microsoft](https://docs.microsoft.com/fr-fr/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide) au début de leur configuration. Degré de sécurisation est une mesure de la posture de sécurité d’une organisation, avec un plus grand nombre indiquant plus de mesures d’amélioration prises. Il fournit des recommandations et des directives qui peuvent protéger l’organisation contre les menaces.
 
@@ -81,7 +81,7 @@ Les ministères devraient envisager d’utiliser [Degré de sécurisation Micros
 Les ministères devraient continuer à mettre en œuvre les exigences de sécurité énoncées dans les documents suivants :
 
 * [Orientation sur l’utilisation sécurisée des services commerciaux d’informatique en nuage : Avis de mise en œuvre de la Politique sur la sécurité (AMOPS)](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/technologiques-modernes-nouveaux/orientation-utilisation-securisee-services-commerciaux-informatique-nuage-amops.html)
-* [Government of Canada Security Control Profile for Cloud-Based GC Services](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/technologiques-modernes-nouveaux/services-informatique-nuage/profil-controle-securite-services-ti-fondes-information-nuage.html)
+* [Profil des mesures de sécurité pour les services du GC fondés sur l’informatique en nuage - Canada.ca](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/services-informatique-nuage/profil-controle-securite-services-ti-fondes-information-nuage.html)
 
 Les ministères devraient collaborer avec leurs équipes de gestion des risques de sécurité de la TI pour obtenir des conseils et une orientation sur l’intégration des activités d’évaluation et d’autorisation de la sécurité dans le cadre de la mise en œuvre de l’environnement de l’informatique en nuage du GC. [L’approche et les procédures de gestion des risques à la sécurité de l’informatique en nuage du gouvernement du Canada](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/technologiques-modernes-nouveaux/services-informatique-nuage/approche-procedures-gestion-risques-securite-informatique-nuage.html) décrivent les activités que les ministères doivent envisager dans le cadre des activités de gestion des risques ministériels.
 
@@ -91,6 +91,6 @@ Voir [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ### Licence
 
-Sauf indication contraire, le code source de ce projet est protégé par le droit d'auteur de la Couronne du gouvernement du Canada et distribué sous la [licence MIT](LICENSE).
+Sauf indication contraire, le code source de ce projet est protégé par le droit d’auteur de la Couronne du gouvernement du Canada et distribué sous la [licence MIT](LICENSE).
 
-Le mot-symbole « Canada » et les éléments graphiques connexes liés à cette distribution sont protégés en vertu des lois portant sur les marques de commerce et le droit d'auteur. Aucune autorisation n'est accordée pour leur utilisation à l'extérieur des paramètres du programme de coordination de l'image de marque du gouvernement du Canada. Pour obtenir davantage de renseignements à ce sujet, veuillez consulter les [Exigences pour l'image de marque](https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/communications-gouvernementales/exigences-image-marque.html).
+Le mot-symbole « Canada » et les éléments graphiques connexes liés à cette distribution sont protégés en vertu des lois portant sur les marques de commerce et le droit d’auteur. Aucune autorisation n’est accordée pour leur utilisation à l’extérieur des paramètres du programme de coordination de l’image de marque du gouvernement du Canada. Pour obtenir de plus amples renseignements à ce sujet, veuillez consulter les [Exigences pour l’image du Canada](https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/communications-gouvernementales/exigences-image-marque.html).

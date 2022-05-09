@@ -6,8 +6,8 @@ Conditional Access is the tool used by Azure Active Directory to bring signals t
 
 ## Key Considerations
 
-* [ ] Ensure that users understand their responsibilities when using personal devices to access the data and services and the risks of sharing business data with unauthorised users
-* [ ] Establish [Conditional Access Policies](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) to address common access concerns such as:
+* Ensure that users understand their responsibilities when using personal devices to access the data and services and the risks of sharing business data with unauthorised users
+* Establish [Conditional Access Policies](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) to address common access concerns such as:
   * Blocking or requiring Multifactor Authentication (MFA) for any access attempt from outside of the corporate network;
   * Requiring multi-factor authentication for users with administrative roles
   * Requiring multi-factor authentication for Azure management tasks
@@ -16,18 +16,18 @@ Conditional Access is the tool used by Azure Active Directory to bring signals t
   * Blocking or granting access from specific locations
   * Blocking risky sign-in behaviors
   * Requiring GC-managed devices for specific applications with consideration of the categorization of the data
-* [ ] Implement policies to monitor and prevent:
+* Implement policies to monitor and prevent:
   * Risky users;
   * Risky sign-ins; and
   * Risk detections
-* [ ] Implement device-based conditional access policy and compliance status to either allow or block access to apps and services
+* Implement device-based conditional access policy and compliance status to either allow or block access to apps and services
 
 ## Additional Considerations
 
-* [ ] For **Corporate Owned Devices**, consider implementing the following settings:
+* For **Corporate Owned Devices**, consider implementing the following settings:
   * Allowing access to the Web Application Proxy (WAP) and authentication policies to ensure that the device is corporately owned
   * Ensuring that MFA is enabled for all accounts including use of OTP application
-* [ ] For **personal devices**, consider implementing the following settings:
+* For **personal devices**, consider implementing the following settings:
   * Ensuring that MFA is enabled for all accounts including use of OTP application
   * Explore data classification capabilities to monitoring and protect sensitive data
   * Explore a reverse proxy configuration using [Microsoft Cloud App Security (MCAS)](https://docs.microsoft.com/en-us/cloud-app-security/proxy-intro-aad) to protect data when using web browsers (additional licensing required)
@@ -35,8 +35,8 @@ Conditional Access is the tool used by Azure Active Directory to bring signals t
 
 ## Validation
 
-* [ ] Validate that conditional access policies are in place for devices
-* [ ] Validate that conditional access policies are in place for enabling MFA
+* Validate that conditional access policies are in place for devices
+* Validate that conditional access policies are in place for enabling MFA
 
 ## References
 
