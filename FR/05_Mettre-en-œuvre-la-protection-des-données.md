@@ -13,9 +13,9 @@ Protéger les renseignements et les actifs hébergés dans le nuage de l’accè
 * Utiliser les algorithmes et les protocoles cryptographiques approuvés par le Centre de la sécurité des télécommunications Canada (CSTC), conformément aux publications [40.111](https://cyber.gc.ca/fr/orientation/algorithmes-cryptographiques-pour-linformation-non-classifie-protege-et-protege-b) et [40.062](https://www.cse-cst.gc.ca/en/system/files/pdf_documents/itsp.40.062-eng.pdf).
 * Activer les politiques de prévention de la perte de données au niveau du service d’informatique en nuage afin de permettre au contenu sur Exchange Online et SharePoint Online d’être analysé pour des types particuliers de données comme les numéros de sécurité sociale, les numéros de carte de crédit ou les mots de passe.
 * Tirer profit de la Gouvernance des données avancée d’Office 365 pour la gouvernance, la rétention et l’expiration des données.
-*  Veiller à ce que les politiques antipourriel et de protection d’Exchange Online soient configurées correctement conformément aux [mesures de renforcement des appareils](https://github.com/canada-ca/cloud-guardrails-O365/blob/master/FR/07_Exécuter-le-renforcement-des-appareils.md).
-*  Utiliser Azure Information Protection (AIP) pour la classification, l’étiquetage et la protection des renseignements des documents internes et des courriels pour les points d’extrémité.
-*  Veiller à ce que les délais d’expiration pour les liens de partage externe soient configurés.
+* Veiller à ce que les politiques antipourriel et de protection d’Exchange Online soient configurées correctement conformément aux [mesures de renforcement des appareils](https://github.com/canada-ca/cloud-guardrails-O365/blob/master/FR/07_Exécuter-le-renforcement-des-appareils.md).
+* Utiliser Azure Information Protection (AIP) pour la classification, l’étiquetage et la protection des renseignements des documents internes et des courriels pour les points d’extrémité.
+* Veiller à ce que les délais d’expiration pour les liens de partage externe soient configurés.
 
 ## Autres considérations
 
