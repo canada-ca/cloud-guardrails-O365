@@ -6,58 +6,58 @@ Minimize available services and control connectivity by disabling services as we
 
 ## Key Considerations
 
-* [ ] Configure External collaboration settings
-* [ ] Configure Azure Information protection
-* [ ] Ensure O365 ATP SafeLinks for Office Applications is Enabled
-* [ ] Disable macros where they're not used
-* [ ] Disable high-risk macro capabilities
-* [ ] Configure macro execution scanning
-* [ ] Disable macros unless they are in trusted files - Trusted files (signature or location)
-* [ ] Block macros from the Internet
-* [ ] Configure [anti-malware protection](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-malware-protection?view=o365-worldwide) in the tenant
-* [ ] Ensure third party integrated applications are not allowed
+* Configure External collaboration settings
+* Configure Azure Information protection
+* Ensure O365 ATP SafeLinks for Office Applications is Enabled
+* Disable macros where they're not used
+* Disable high-risk macro capabilities
+* Configure macro execution scanning
+* Disable macros unless they are in trusted files - Trusted files (signature or location)
+* Block macros from the Internet
+* Configure [anti-malware protection](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-malware-protection?view=o365-worldwide) in the tenant
+* Ensure third party integrated applications are not allowed
 
 ### Teams
 
-* [ ] Ensure that users understand the categorization of the Teams site (e.g. Team sites may only be approved for unclassified information)
-* [ ] Ensure that users understand their responsibilities for managing information including saving decisions made in the departmental IM repository
-* [ ] Owners of team sites are responsible for the management of their Office 365 groups which are the security access control groups that allow access to the team site
-* [ ] Ensure you review the Microsoft Apps, Third party Apps and Tenant App that your organization will allow to use within teams
-* [ ] Disable external access unless your organization requires collaboration from external users. Configure external access policies to enable collaboration with approved domains.
-* [ ] Disable guest access unless is required by your organization. Limit the number of guest users to the environment ensuring conformance to the guest user access policy and procedures defined as part of the [Managed Identity and Access](01_Manage-Identity-Access.md) guardrail.
-* [ ] Disable file sharing services (ShareFile, Dropbox, Box,  Google Drive) if they have not been approved for use in your organization
+* Ensure that users understand the categorization of the Teams site (e.g. Team sites may only be approved for unclassified information)
+* Ensure that users understand their responsibilities for managing information including saving decisions made in the departmental IM repository
+* Owners of team sites are responsible for the management of their Office 365 groups which are the security access control groups that allow access to the team site
+* Ensure you review the Microsoft Apps, Third party Apps and Tenant App that your organization will allow to use within teams
+* Disable external access unless your organization requires collaboration from external users. Configure external access policies to enable collaboration with approved domains.
+* Disable guest access unless is required by your organization. Limit the number of guest users to the environment ensuring conformance to the guest user access policy and procedures defined as part of the [Managed Identity and Access](01_Manage-Identity-Access.md) guardrail.
+* Disable file sharing services (ShareFile, Dropbox, Box,  Google Drive) if they have not been approved for use in your organization
 
 ### Exchange Online
 
-* [ ] Ensure modern authentication for Exchange Online is enabled
-* [ ] Ensure calendar details sharing with external users is disabled
-* [ ] Configure connection filtering
-* [ ] Ensure Exchange Online Spam and Protection Policies are set correctly
-* [ ] Ensure the [Common Attachment Types Filter](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios) is enabled for [malware protection](https://docs.microsoft.com/en-ca/microsoft-365/security/office-365-security/anti-malware-protection?view=o365-worldwide#anti-malware-policies)
-* [ ] Ensure mail transport rules [do not forward](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#forwarding) email to external domains
-* [ ] Ensure mail transport rules do not whitelist specific domains
-* [ ] Ensure that an [anti-phishing policy](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#8-protect-your-email-from-phishing-attacks) has been created
-* [ ] Ensure notifications for internal users sending malware is Enabled
-* [ ] Ensure the [Advanced Threat Protection Safe Links](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#10-protect-against-phishing-attacks-with-atp-safe-links) policy is enabled
-* [ ] Disable unused services per mailbox
-* [ ] Configure Transport rule for [ransomware](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#ransomware) to block file extensions that are commonly used for ransomware, or to warn users who receive these attachments in email
-* [ ] Authorize all sending IP addresses in Sender Policy Framework (SPF) and ensure that DKIM is enabled for all Exchange Online Domains
-* [ ] Apply Domain Keys Identified Mail (DKIM) signatures to all outbound messages for all Exchange Online Domains
-* [ ] Establish a minimum Domain-based Message Authentication, Reporting & Conformance (DMARC) policy of “p=none” with at least one address defined as a recipient of aggregate reports, as outlined in CCCS’s Implementation Guidance for Email Domain Protection
-* [ ] Add the Canadian Centre for Cyber Security (CCCS) as an aggregate report recipient in the DMARC records. The address that must be included is dmarc@cyber.gc.ca
+* Ensure modern authentication for Exchange Online is enabled
+* Ensure calendar details sharing with external users is disabled
+* Configure connection filtering
+* Ensure Exchange Online Spam and Protection Policies are set correctly
+* Ensure the [Common Attachment Types Filter](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios) is enabled for [malware protection](https://docs.microsoft.com/en-ca/microsoft-365/security/office-365-security/anti-malware-protection?view=o365-worldwide#anti-malware-policies)
+* Ensure mail transport rules [do not forward](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#forwarding) email to external domains
+* Ensure mail transport rules do not whitelist specific domains
+* Ensure that an [anti-phishing policy](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#8-protect-your-email-from-phishing-attacks) has been created
+* Ensure notifications for internal users sending malware is Enabled
+* Ensure the [Advanced Threat Protection Safe Links](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#10-protect-against-phishing-attacks-with-atp-safe-links) policy is enabled
+* Disable unused services per mailbox
+* Configure Transport rule for [ransomware](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#ransomware) to block file extensions that are commonly used for ransomware, or to warn users who receive these attachments in email
+* Authorize all sending IP addresses in Sender Policy Framework (SPF) and ensure that DKIM is enabled for all Exchange Online Domains
+* Apply Domain Keys Identified Mail (DKIM) signatures to all outbound messages for all Exchange Online Domains
+* Establish a minimum Domain-based Message Authentication, Reporting & Conformance (DMARC) policy of “p=none” with at least one address defined as a recipient of aggregate reports, as outlined in CCCS’s Implementation Guidance for Email Domain Protection
+* Add the Canadian Centre for Cyber Security (CCCS) as an aggregate report recipient in the DMARC records. The address that must be included is dmarc@cyber.gc.ca
 
 ## Additional Considerations
 
-* [ ] Use [Office Message Encryption](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#7-use-office-message-encryption) to provide protection options when sending mail marked as "Do not forward" or "Encrypt"
-* [ ] Consider enabling the [Advanced Threat Protection Safe Attachments](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#9-protect-against-malicious-attachments-and-files-with-atp-safe-attachments) policy
-* [ ] Where possible, use automated incident handling and remediation of O365 threats
-* [ ] Explore the use of threat intelligence services to assist in the hardening of O365 Advanced Threat Protection
-* [ ] Consider enhancing monitoring and control of the cloud environment by using services such as Cloud Access Security Broker (CASB) and User and Entity Behavior Analytics (UEBA) services
-* [ ] Ensure product updates and features are reviewed and configured as they become available and where appropriate
+* Use [Office Message Encryption](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#7-use-office-message-encryption) to provide protection options when sending mail marked as "Do not forward" or "Encrypt"
+* Consider enabling the [Advanced Threat Protection Safe Attachments](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#9-protect-against-malicious-attachments-and-files-with-atp-safe-attachments) policy
+* Where possible, use automated incident handling and remediation of O365 threats
+* Explore the use of threat intelligence services to assist in the hardening of O365 Advanced Threat Protection
+* Consider enhancing monitoring and control of the cloud environment by using services such as Cloud Access Security Broker (CASB) and User and Entity Behavior Analytics (UEBA) services
+* Ensure product updates and features are reviewed and configured as they become available and where appropriate
 
 ## Validation
 
-* [ ] TBD
+* TBD
 
 ## References
 

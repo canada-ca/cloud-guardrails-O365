@@ -8,47 +8,47 @@ Manage identities and establish access control policies and procedures for manag
 
 ### Identity
 
-* [ ] Prevent use of Legacy Authentication Protocols
-* [ ] Configure Azure AD Password Protection in accordance with the [Implementation Strategy for GC Password Guidance](https://www.gcpedia.gc.ca/gcwiki/images/c/c0/Implementation_Strategy_for_GC_Password_Guidance.pdf) (accessible only on the Government of Canada network)
-* [ ] Configure break glass accounts in Azure AD
-* [ ] Leverage Federated authentication where available
+* Prevent use of Legacy Authentication Protocols
+* Configure Azure AD Password Protection in accordance with the [Implementation Strategy for GC Password Guidance](https://www.gcpedia.gc.ca/gcwiki/images/c/c0/Implementation_Strategy_for_GC_Password_Guidance.pdf) (accessible only on the Government of Canada network)
+* Configure break glass accounts in Azure AD
+* Leverage Federated authentication where available
 
 If using ADFS, consider the following:
 
-* [ ] Configure ADFS to use Azure MFA as the primary authentication mechanism
-* [ ] Configure ADFS to Block Legacy Authentication from the Extranet
-* [ ] Configure ADFS Web Application Proxy Extranet Lockout
-* [ ] Install  trusted certificate on the ADFS server
-* [ ] Implement additional security settings in ADFS to mitigate man-in-the-middle attacks
+* Configure ADFS to use Azure MFA as the primary authentication mechanism
+* Configure ADFS to Block Legacy Authentication from the Extranet
+* Configure ADFS Web Application Proxy Extranet Lockout
+* Install  trusted certificate on the ADFS server
+* Implement additional security settings in ADFS to mitigate man-in-the-middle attacks
 
 ### Access
 
-* [ ] Implement a mechanism for uniquely identifying and authenticating organizational users, non-organizational users (if applicable), and processes (for example, username and password)
-* [ ] Ensure multifactor authentication is enabled for all users in administrative roles
-* [ ] Ensure that between two and four global admins are designated
-* [ ] Implement role-based access and use roles with least privileges where possible (e.g. use non-global administrative roles)
-* [ ] Configure Office 365 Global Administrator role members
-* [ ] Use dedicated accounts to perform Administrative Tasks
-* [ ] Control Access to Azure AD administration portal
-* [ ] Ensure modern authentication for SharePoint applications is required
-* [ ] Ensure modern authentication for Teams (formerly Skype for Business Online) is enabled
-* [ ] Ensure modern authentication for Exchange Online is enabled
-* [ ] Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
-* [ ] Disable guest user access by default. Add only the minimum number of accounts, if needed, in conformance to an approved guest user policy and procedures including ensuring that a [secure sharing environment](https://docs.microsoft.com/en-us/microsoft-365/solutions/create-secure-guest-sharing-environment?view=o365-worldwide) has been established.
-* [ ] Regularly review reports for all administrative accounts and access reports, in accordance with the [Enable logging and monitoring](04_Enable-Logging-and-Monitoring.md) guardrail
+* Implement a mechanism for uniquely identifying and authenticating organizational users, non-organizational users (if applicable), and processes (for example, username and password)
+* Ensure multifactor authentication is enabled for all users in administrative roles
+* Ensure that between two and four global admins are designated
+* Implement role-based access and use roles with least privileges where possible (e.g. use non-global administrative roles)
+* Configure Office 365 Global Administrator role members
+* Use dedicated accounts to perform Administrative Tasks
+* Control Access to Azure AD administration portal
+* Ensure modern authentication for SharePoint applications is required
+* Ensure modern authentication for Teams (formerly Skype for Business Online) is enabled
+* Ensure modern authentication for Exchange Online is enabled
+* Configure password policy in accordance with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html).
+* Disable guest user access by default. Add only the minimum number of accounts, if needed, in conformance to an approved guest user policy and procedures including ensuring that a [secure sharing environment](https://docs.microsoft.com/en-us/microsoft-365/solutions/create-secure-guest-sharing-environment?view=o365-worldwide) has been established.
+* Regularly review reports for all administrative accounts and access reports, in accordance with the [Enable logging and monitoring](04_Enable-Logging-and-Monitoring.md) guardrail
 
 ## Additional Considerations
 
-* [ ] Consider enabling Identity Protection (additional licensing required)
-* [ ] Consider controlling administrative tasks with privileged access management (additional licensing required)
-* [ ] Investigate just-in-time access to enable administrative access on an as an when required basis (additional licensing required)
-* [ ] Limit disclosure of sensitive GC information to support personnel. If access to data is required, leverage the customer lockbox feature (additional licensing required)
-* [ ] Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions accordingly
+* Consider enabling Identity Protection (additional licensing required)
+* Consider controlling administrative tasks with privileged access management (additional licensing required)
+* Investigate just-in-time access to enable administrative access on an as an when required basis (additional licensing required)
+* Limit disclosure of sensitive GC information to support personnel. If access to data is required, leverage the customer lockbox feature (additional licensing required)
+* Determine access restrictions and configuration requirements for GC-issued endpoint devices, including those of non-privileged and privileged users, and configure access restrictions accordingly
 
 ## Validation
 
-* [ ] Confirm that a privileged account management plan and process has been documented.
-* [ ] Confirm password policy aligns with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html) (accessible only on the Government of Canada network) as appropriate.
+* Confirm that a privileged account management plan and process has been documented.
+* Confirm password policy aligns with [GC Password Guidance](https://www.canada.ca/en/government/system/digital-government/password-guidance.html) (accessible only on the Government of Canada network) as appropriate.
 
 ## References
 
