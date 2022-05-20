@@ -22,7 +22,7 @@ Make sure to remove this comment when you are done.
 
 ### General checklist
 
-- [ ] [Documentation](/README.md) created/updated
+- [ ] [Documentation](README.md) created/updated
 - [ ] Changelog entry added, if necessary
 - [ ] Tests added for this feature/bug
 - [ ] Conforms to the [style guides](https://www.canada.ca/en/government/about/design-system.html)
