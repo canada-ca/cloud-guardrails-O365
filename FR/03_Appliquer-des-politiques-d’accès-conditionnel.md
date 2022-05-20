@@ -1,5 +1,7 @@
 # Appliquer des politiques de contrôle de l’accès conditionnel
 
+([Retourner](README.md#mesures-de-sécurité-initiales))
+
 ## Objectif
 
 L’accès conditionnel est l’outil utilisé par Azure Active Directory pour rassembler les signaux, prendre des décisions et exécuter les politiques organisationnelles. Une politique d’accès conditionnel précise les applications ou les services que vous voulez protéger, les conditions qui régissent les applications ou les services auxquels les utilisateurs ont accès et les utilisateurs auxquels la politique s’applique. Les politiques sont exécutées après l’achèvement de l’authentification du premier facteur. Par exemple, des politiques visant à empêcher tout appareil non autorisé d’accéder à des renseignements commerciaux ou personnels de nature délicate devraient être envisagées.

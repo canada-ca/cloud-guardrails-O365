@@ -1,5 +1,7 @@
 # Exécuter le renforcement des services
 
+([Retourner](README.md#mesures-de-sécurité-initiales))
+
 ## Objectif
 
 Réduire au minimum les services disponibles et contrôler la connectivité en désactivant les services ainsi que les comptes inutiles des systèmes. Configurer le service Office 365 et les appareils qui y ont accès pour tenter de filtrer et de réduire l’impact des tentatives d’attaque.

@@ -1,5 +1,7 @@
 # Gérer l’identité et l’accès
 
+([Retourner](README.md#mesures-de-sécurité-initiales))
+
 ## Objectif
 
 Gérer les identités et établir des stratégies et des procédures de contrôle d’accès pour la gestion des privilèges d’administration.

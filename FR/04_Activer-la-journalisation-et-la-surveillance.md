@@ -1,5 +1,7 @@
 # Activer la journalisation et la surveillance
 
+([Retourner](README.md#mesures-de-sécurité-initiales))
+
 ## Objectif
 
 Continuellement surveiller les événements et la performance du système et inclure une fonction de dossiers d’audit en matière de sécurité dans tous les systèmes d’information afin de permettre la détection des incidents. Il est essentiel d’avoir un niveau adéquat de journalisation et de surveillance, y compris une fonction de dossiers d’audit en matière de sécurité dans tous les systèmes d’information hébergés dans l’environnement de nuage et pour les charges de travail en nuage.

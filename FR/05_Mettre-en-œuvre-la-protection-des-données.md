@@ -1,5 +1,7 @@
 # Mettre en œuvre la protection des données
 
+([Retourner](README.md#mesures-de-sécurité-initiales))
+
 ## Objectif
 
 Protéger les renseignements et les actifs hébergés dans le nuage de l’accès, de l’utilisation, de la divulgation, de la modification, de l’élimination, de la transmission ou de la destruction non autorisés tout au long de leur cycle de vie.
