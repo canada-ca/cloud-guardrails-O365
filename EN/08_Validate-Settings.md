@@ -1,6 +1,6 @@
 # Validate Settings
 
-([Back](README.md#initial-guardrails))
+([Back](/README.md#initial-guardrails))
 
 ## Objective
 

@@ -1,6 +1,6 @@
 # Manage Identity and Access
 
-([Back](README.md#initial-guardrails))
+([Back](/README.md#initial-guardrails))
 
 ## Objective
 

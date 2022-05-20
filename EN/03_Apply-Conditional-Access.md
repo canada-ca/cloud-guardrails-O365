@@ -1,6 +1,6 @@
 # Apply Conditional Access Control Policies
 
-([Back](README.md#initial-guardrails))
+([Back](/README.md#initial-guardrails))
 
 ## Objective
 

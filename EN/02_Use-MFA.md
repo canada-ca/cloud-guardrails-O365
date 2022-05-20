@@ -1,6 +1,6 @@
 # Use Multi-Factor Authentication
 
-([Back](README.md#initial-guardrails))
+([Back](/README.md#initial-guardrails))
 
 ## Objective
 

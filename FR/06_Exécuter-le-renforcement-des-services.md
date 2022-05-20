@@ -1,6 +1,6 @@
 # Exécuter le renforcement des services
 
-([Retourner](README.md#mesures-de-sécurité-initiales))
+([Retourner](/README.md#mesures-de-sécurité-initiales))
 
 ## Objectif
 

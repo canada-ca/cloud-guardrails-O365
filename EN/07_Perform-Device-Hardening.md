@@ -1,6 +1,6 @@
 # Perform Device Hardening
 
-([Back](README.md#initial-guardrails))
+([Back](/README.md#initial-guardrails))
 
 ## Objective
 
