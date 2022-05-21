@@ -1,5 +1,7 @@
 # Perform Device Hardening
 
+([Back](/README.md#initial-guardrails))
+
 ## Objective
 
 The security posture of the devices being used to access the service should be considered. As a minimum, organisations need to ensure that devices are fully patched, are not using administrative privileges, have malware defences in place and are collecting security logs.

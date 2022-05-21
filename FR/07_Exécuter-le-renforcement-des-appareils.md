@@ -1,5 +1,7 @@
 # Exécuter le renforcement des appareils
 
+([Retourner](/README.md#mesures-de-sécurité-initiales))
+
 ## Objectif
 
 Utiliser les outils intégrés pour valider la configuration et les paramètres de sécurité pour O365 et appliquer les recommandations, le cas échéant, pour améliorer la position de sécurité. Veiller à ce qu’il y ait un niveau uniforme de protection pour l’ensemble des données, des identités et des appareils du GC.

@@ -1,5 +1,7 @@
 # Utiliser l’authentification à facteurs multiples
 
+([Retourner](/README.md#mesures-de-sécurité-initiales))
+
 ## Objectif
 
 L’authentification à facteurs multiples (AFM) est une méthode d’authentification qui requiert l’utilisation de plus d’une méthode de vérification, comme :

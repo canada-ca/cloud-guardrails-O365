@@ -1,5 +1,7 @@
 # Perform Service Hardening
 
+([Back](/README.md#initial-guardrails))
+
 ## Objective
 
 Minimize available services and control connectivity by disabling services as well as removing unnecessary accounts from systems. Configure the Office 365 service and the devices from which it is accessed to attempt to filter out and reduce the impact of attempted attacks.

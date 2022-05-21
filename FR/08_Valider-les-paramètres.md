@@ -1,5 +1,7 @@
 # Valider les paramètres
 
+([Retourner](/README.md#mesures-de-sécurité-initiales))
+
 ## Objectif
 
 La position de sécurité des appareils utilisés pour avoir accès au service devrait être considérée. À tout le moins, les organisations doivent veiller à ce que les appareils aient les plus récentes mises à jour installées, n’utilisent pas les privilèges d’administrateur, aient des mesures de protection contre les logiciels malveillants et collectent des journaux de sécurité.

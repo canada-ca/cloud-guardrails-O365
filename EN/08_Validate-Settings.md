@@ -1,5 +1,7 @@
 # Validate Settings
 
+([Back](/README.md#initial-guardrails))
+
 ## Objective
 
 Use built-in tools to validate the security configuration and settings for O365 and apply recommendations as appropriate to improve security posture. Ensure that there is a consistent level of protection across GC data, identities, and devices.
