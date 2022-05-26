@@ -1,6 +1,6 @@
 # Mettre en œuvre la protection des données
 
-([Retourner](/README.md#mesures-de-sécurité-initiales))
+([Retourner](../README.md))
 
 ## Objectif
 

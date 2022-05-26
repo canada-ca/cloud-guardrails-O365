@@ -1,6 +1,6 @@
 # Exécuter le renforcement des appareils
 
-([Retourner](/README.md#mesures-de-sécurité-initiales))
+([Retourner](../README.md))
 
 ## Objectif
 

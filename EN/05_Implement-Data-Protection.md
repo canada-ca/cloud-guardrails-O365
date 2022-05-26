@@ -1,6 +1,6 @@
 # Implement Data Protection
 
-([Back](/README.md#initial-guardrails))
+([Back](../README.md))
 
 ## Objective
 
