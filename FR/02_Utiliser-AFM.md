@@ -1,6 +1,6 @@
 # Utiliser l’authentification à facteurs multiples
 
-([Retourner](/README.md#mesures-de-sécurité-initiales))
+([Retourner](../README.md))
 
 ## Objectif
 

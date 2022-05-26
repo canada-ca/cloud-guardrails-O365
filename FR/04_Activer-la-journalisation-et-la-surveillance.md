@@ -1,6 +1,6 @@
 # Activer la journalisation et la surveillance
 
-([Retourner](/README.md#mesures-de-sécurité-initiales))
+([Retourner](../README.md))
 
 ## Objectif
 

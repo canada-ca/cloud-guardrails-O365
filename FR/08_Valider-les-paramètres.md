@@ -1,6 +1,6 @@
 # Valider les paramètres
 
-([Retourner](/README.md#mesures-de-sécurité-initiales))
+([Retourner](../README.md))
 
 ## Objectif
 

@@ -1,6 +1,6 @@
 # Appliquer des politiques de contrôle de l’accès conditionnel
 
-([Retourner](/README.md#mesures-de-sécurité-initiales))
+([Retourner](../README.md))
 
 ## Objectif
 
