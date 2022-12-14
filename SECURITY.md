@@ -1,4 +1,4 @@
-([Français](#Signalement-des-problèmes-de-sécurité)
+([Français])(#Signalement-des-problèmes-de-sécurité)
 
 # Reporting Security Issues
 
