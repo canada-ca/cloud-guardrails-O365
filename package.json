@@ -14,6 +14,6 @@
     "cspell": "^6.18.1",
     "glob": "^8.1.0",
     "markdown-link-check": "^3.10.3",
-    "markdownlint-cli": "^0.33.0"
+    "markdownlint-cli": "^0.34.0"
   }
 }
