@@ -65,7 +65,7 @@ This Code of Conduct is also inspired by GDS' `alphagov` [Code of conduct](https
 # Code de conduite pour le projet [`nom du projet`]
 <!--markdownlint-enable MD025-->
 
-([English](#contributor-Covenant-Code-of-Conduct-for-the-projectname-project))
+([English](#contributor-covenant-code-of-conduct-for-the-projectname-project))
 
 Les contributeurs aux dépôts hébergés dans [`nom du projet`] sont tenus de respecter le Code de conduite du Pacte des contributeurs, et ceux qui travaillent au sein du gouvernement sont également tenus de respecter le Code de valeurs et d'éthique du secteur public.
 
